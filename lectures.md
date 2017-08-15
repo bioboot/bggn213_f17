@@ -1,0 +1,536 @@
+---
+layout: page
+title: Lectures
+menu: true
+order: 2
+---
+
+All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Map](https://goo.gl/maps/yPnFEypdSCM2)). Clicking on the class topics below will take you to corresponding lecture notes, homework assignments, pre-class video screen-casts and required reading material.   
+
+
+| \#  | Date | **Topics for Fall 2017** |
+| :---: | -------- | :--- |
+| 1 | Th, 09/28 | [**Welcome to Foundations of Bioinformatics**](#1)  <br> Course introduction, Leaning goals &amp; expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup | 
+|   |   |   |
+| 2 | Tu, 10/03 | [**Bioinformatics databases and key online resources**](#2) <br> NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases | 
+|   |   |   |
+| 3 | Th, 10/05 | [**Sequence alignment fundamentals, algorithms and applications**](#3) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches | 
+|   |   |   |
+| 4 | Tu, 10/10 | [**Advanced database searching**](#4) <br> Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons | 
+|   |   |   |
+| 5 | Th, 10/12 | [**Introduction to UNIX for bioinformatics**](#5) <br> Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers | 
+|   |   |   |
+| 6 | Tu, 10/17 | [**Working with Unix**](#6) <br> Bioinformatics on the command line, Redirection, streams and pipes, Workflows for batch processing, Shell scripting, Organizing computational projects | 
+|   |   |   |
+| 7 | Th, 10/19 | [**Bioinformatics data analysis with R**](#7) <br> R language basics and the RStudio IDE, Major R data structures and functions, Using R scripts from the command line | 
+|   |   |   |
+| 8 | Tu, 10/24 | [**Data exploration and visualization in R**](#8) <br> Import data in various formats (both local and from online sources), The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
+|   |   |   |
+| 9 | Th, 10/26 | [**Working with R packages for bioinformatics**](#9) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor | 
+|   |   |   |
+| 10 | Tu, 10/31 | [**Structural Bioinformatics**](#10) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure | 
+|   |   |   |
+| 11 | Th, 11/02 | [**Bioinformatics in drug discovery and design**](#11) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
+|   |   |   |
+| 12 | Tu, 11/07 | **Mid Term:** [**Find a gene project assignment**](#12) <br> Principles of database searching and sequence analysis | 
+|   |   |   |
+| 13 | Th, 11/09 | [**Genome informatics and high throughput sequencing**](#13) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
+|   |   |   |
+| 14 | Tu, 11/14 | [**Major bioinformatics resources for genomics.**](#14) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
+|   |   |   |
+| 15 | Th, 11/16 | [**Transcriptomics and the analysis of RNA-Seq data**](#15) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R | 
+|   |   |   |
+| 16 | Tu, 11/21 | [**Genome annotation and the interpretation of gene lists**](#16) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
+|   |   |   |
+|   | Th, 11/23 | **Happy Thanksgiving!** <br> No class <br> **N.B.** Find a gene assignment due on Monday 11/27! |
+|   |   |   |
+| 17 | Tu, 11/28 | [**Systems and network modeling**](#17) <br> Analysis of protein-protein interactions, Pathways and networks, Computational methods of network modeling, Hands on with Cytoscape | 
+|   |   |   |
+| 18 | Th, 11/30 | [**Continuing genomic advances and bioinformatics challenges**](#18) <br> From genome to phenotypes, Integration of heterogenous high throughput genome-wide data sets into their functional context, Data mining and hypothesis generation in the era of big data, deep learning and artificial intelligence   |
+|   |   |   |
+| 19 | Tu, 12/05 | [**Guest lecture**](#19) <br> Student selected guest presentation with possible topics including: **Metagenomics** / **Pharmacogenomics** / **Epigenomicss** / **Personal genomics** / **Genome evolution** / **Genome editing and synthetic genomics** / **Social impacts and ethical implications of continuing* genomic advances**  | 
+|   |   |   |
+| 20 | Th, 12/07 | [**Course summary**](#20) <br> Summary of learning goals, Student course evaluation time and exam preparation | 
+|   |   |   |
+|   | **TBD** (Th, 12/12) | **Final exam!** |
+
+<br>
+<hr>
+
+# Class material
+
+<a name="1"></a>
+## 1: Welcome to Foundations of Bioinformatics 
+
+**Topics**:  
+Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student [computer setup]({{ site.baseurl }}/setup/).  
+
+**Goals**: 
+- Understand course scope, expectations, logistics and ethics code. 
+- Complete the [pre-course questionnaire]()
+- Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.
+- Understand the increasing necessity for computation in modern life sciences research
+
+**Material**: (To be updated!) 
+- [Pre class screen cast](https://vimeo.com/151178510),  
+- Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  
+- [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
+
+
+**Homework**:  
+- [Questions](https://docs.google.com/forms/d/1OZIgvobpGWRFajUXbW5mgbDtthacMcK4BK-0_4zwHME/viewform),  
+[Readings: PDF1]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
+[Readings: PDF2]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
+
+  
+
+[![ScreenCast1.1](http://i.imgur.com/B9ev2Hq.png)](https://vimeo.com/151178510 "Welcome ScreenCast - Click to Watch!")
+
+**Notes**: 
+Screen-cast covers: What are bioinformatics and computational biology?  How do we actually do bioinformatics?  Major areas of bioinformatics covered in this course.  
+
+We aim to structure each  9am - 12pm class with two *breaks* of 10 or 15 mins each between three main *content/activity blocks*, for example:
+
+
+| Time |         | Example content |
+| ------ | ---- | ---- |
+| 9:00 to 9:10am | Setup | Pre-class review & Questions |
+| 9:10 to 9:50am | **Content block 1** | Lecture content 1 |
+| 9:50 to 10:00am | Break 1 | Discuss and circulate with students |
+| 10:00 to 10:45am | **Content block 2** | Hands-on activity |
+| 10:45 to 11:00am | Break 2 | Discuss and circulate with students |
+| 11:00 to 11:45am | **Content block 3** | Lecture content 2 / Hands-on activity  |
+| 11:45 to 12:00am | Wrap-up | Post-class review & Questions |
+
+
+
+**N.B.** Please note our [Ethics code]({{ site.baseurl }}/ethics/) and help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioboot-questions-2017). 
+{:.message}
+
+<hr>
+<a name="2"></a>
+## 2:  Bioinformatics databases and key online resources
+
+**Topics**:  
+NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf)) 
+
+**Goals**:  
+- Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB, UCSC, ENSEMBLE) and describe how these databases intersect.  
+- Be able to describe how nucleotide and protein sequence and structure data are represented (FASTA, FASTQ, GenBank, UniProt, PDB).
+- Be familiar with online tools at the EBI and NCBI including Muscle and BLAST.
+- The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst investigating the molecular basis of several common human disease.  
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf){:.no-push-state}  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab_1.1_w17.pdf){:.no-push-state}
+- Muddy point assessment  
+ 
+
+**Homework**:  
+- [Questions](https://docs.google.com/forms/d/1OZIgvobpGWRFajUXbW5mgbDtthacMcK4BK-0_4zwHME/viewform),  
+- [Questions](https://docs.google.com/forms/d/1AFsMMV26wq_2k0AKQ0p5A7KFdSts1H8tOhkdoV3TUq8/viewform),  
+- [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
+- [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
+
+ 
+<hr>
+<a name="3"></a>
+<br>
+
+## 3. Alignment fundamentals, algorithms and applications
+
+**Topics**:  
+Sequence Alignment and Database Searching
+Homology, Sequence similarity, Local and global alignment, Database searching with BLAST. PSI-BLAST, Profiles and HMMs, Protein structure comparisons.
+
+**Goal**:  
+- Be able to describe how dynamic programming works for pairwise sequence alignment 
+- Appreciate the differences between global and local alignment along with their major application areas.
+- Understand how aligning novel sequences with previously characterized genes or proteins provides important insights into their common attributes and evolutionary origins. 
+- The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- [Questions](https://docs.google.com/forms/d/1AFsMMV26wq_2k0AKQ0p5A7KFdSts1H8tOhkdoV3TUq8/viewform),  
+- [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
+- [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
+
+
+
+<a name="4"></a>
+<br>
+
+## 4:  Advanced Database Searching
+**Topics**: Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons  
+
+**Goal**: 
+- Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
+- Understand the limits of homology detection with tools such as BLAST 
+- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+
+<hr>
+<a name="5"></a>
+<br>
+
+## 5: Introduction to UNIX for bioinformatics   
+**Topics**: Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers.
+
+**Goal**: 
+- Understand why we use UNIX for bioinformatics
+- Use UNIX command-line tools for file system navigation and text file manipulation.
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
+- Be able to connect to remote servers from the command line.  
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.  
+
+
+<hr>
+<a name="6"></a>
+<br>
+
+## 6: Working with Unix   
+**Topics**: Bioinformatics on the command line, Redirection, streams and pipes, Workflows for batch processing, Shell scripting, Organizing computational projects.
+
+**Goal**: 
+- Use existing programs at the UNIX command line to analyze bioinformatics data,
+- Understand IO Redirection, Streams and pipes,  
+- Think in terms of modular workflows for batch processing,  
+- Understand best practices for organizing computational projects.  
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.   
+
+
+<hr>
+# UNDER CONSTRUCTION!
+<a name="7"></a>
+<br>
+
+## 7: Bioinformatics data analysis with R    
+**Topics**: R language basics and the RStudio IDE, Major R data structures and functions, Data Exploration and Visualization in R, Working with R packages from CRAN & Bioconductor.
+
+**Goal**: 
+- Familiarity to R's basic syntax
+- Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis.
+- Familiarity with major R data structures (vectors, matrices and data.frames).
+- Understand the basics of using functions (arguments, vectorizion and re-cycling),
+- Appreciate how you can use R scripts to aid with reproducibility.
+
+ 
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.     
+
+
+
+<hr>
+<a name="8"></a>
+<br>
+
+## 8: Data exploration and visualization in R    
+**Topics**: Import data in various formats both local and from online sources, The exploratory data analysis mindset, Data visualization best practices, Simple base graphics 
+scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot
+
+**Goal**: 
+- Perform elementary statistical analysis on boimolecular and “omics” datasets with R 
+- Produce informative graphical displays and data summaries.
+- Gain exposure to the extensive graphical capabilities of R.  
+
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.   
+
+
+
+<hr>
+<a name="9"></a>
+<br>
+
+## 9: Working with R packages for bioinformatics    
+**Topics**: Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+
+**Goals**: TBD... 
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.   
+
+
+<hr>
+<a name="10"></a>
+<br>
+
+## 10: Structural Bioinformatics    
+**Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure.
+
+**Goal**: 
+- View and interpret the structural models in the PDB,
+- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,
+- Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,
+- Understand the basis of modeling energy as a function of structure,
+- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery.
+
+
+<hr>
+<a name="11"></a>
+<br>
+
+## 11: Bioinformatics in drug discovery and design 
+**Topics**: Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization
+
+**Goals**: ...TBD...  
+- The RCSB PDB resource. Interactive biomolecular structure visualization with VMD. Structural analysis of protein families and prediction of protein flexibility with Bio3D. In silico docking and virtual screening strategies for drug design.
+- Structure Based Drug Discovery and Pharmacogenomics <br> Biomolecular Simulations)
+Small molecule docking methods, Protein motion and conformational variants,  Molecular simulation, Bioinformatics in drug discovery. 
+- Pharmacogenomics, polymorphisms, pharmacokinetics and Pharmacodynamics, ADRs.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+
+
+<hr>
+<a name="12"></a>
+<br>
+
+## 12: Mid Term! 
+
+See [handout]({{ site.baseurl }}/class-material/FindGene_mid-term.pdf){:.no-push-state}) for detailed instructions.
+
+<hr>
+<a name="13"></a>
+<br>
+
+## 13: Genome informatics and high throughput sequencing  
+**Topics**: Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods
+
+**Goals**: Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.
+
+Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+
+**Notes**:
+
+| | Description | Duration | End time |
+| --- | --- | --- | --- | 
+| 13.1  |  **What is a Genome?** | | |
+| | Early Genome Sequencing | | |
+| | The Human Genome Project | | |
+| 13.2 | [**What can we do with a Genome?** | | |
+| | Comparative Genomics | | |
+| | Gene Prediction | | |
+| -  |  *Break*  |  10mins |   11:05am |
+|  13.3 | [**Modern Genome Sequencing** | | |
+| | Modern NGS <br> 1st, 2nd and 3rd generation) Sequencing Platforms | | |
+| -  |  *Break*  |  10mins |   11:05am |
+| 13.4 | [**Workflow for NGS** | | |
+| | Quality Control <br> QC |  | |
+| | FASTQC format| | |
+| | Sequence Alignment | | |
+| | SAM format | | |
+| | Post-alignment Optimization | | |
+| | GATK Workflow | | |
+
+
+<hr>
+<a name="14"></a>
+<br>
+
+## 14: Major bioinformatics resources for genomics. 
+**Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FASTQC and bowtie2
+
+**Goals**: For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+**Notes**: 
+The Galaxy web-based platform for genomic data analysis. Manipulation and analysis of next generation sequencing data sets.
+
+High throughput sequencing technologies, biological applications and bioinformatics analysis methods. Web interfaces to genome databases at Ensembl and UCSC.
+
+
+
+
+<hr>
+<a name="15"></a>
+<br>
+
+## 15: Transcriptomics and the analysis of RNA-Seq data 
+**Topics**: RNA-Seq aligners, Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse
+
+**Goals**: Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions.
+
+ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human genome e.g., Bowtie, pile up, analyzing the data putting it on the UCSC genome browser.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+<hr>
+<a name="16"></a>
+<br>
+
+## 16: Genome annotation and the interpretation of gene lists 
+**Topics**: Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
+
+**Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment).
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1,  
+- Readings: PDF2.   
+
+<hr>
+<a name="17"></a>
+<br>
+
+## 17: Systems and network modeling 
+**Topics**: From genome to phenotypes. Integration of genome-wide data sets into their functional context, Analysis of protein-protein interactions, Pathways and networks, Computational methods of network modeling
+
+**Goals**: Use the KEGG pathway database to look up interaction pathways.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- Questions,  
+- Readings: PDF1.  
+
+<hr>
+<a name="18"></a>
+<br>
+
+## 18: Continuing genomic advances and bioinformatics challenges 
+**Topics**: From genome to phenotypes, Integration of heterogenous high throughput genome-wide data sets into their functional context, Data mining and hypothesis generation in the era of deep learning and artificial intelligence)
+
+**Goals**: Use graph theory to represent biological data networks.
+
+**Material**:  
+- Pre class screen cast,  
+- Lecture Slides: Large PDF, Small PDF,  
+- Hands-on section worksheet
+- Muddy point assessment  
+ 
+ 
+**Homework**:   
+- No homework this week,  
+- Readings: PDF1,  
+
+<hr>
+<a name="19"></a>
+<br>
+
+## 19: Guest lecture 
+**Topics**: Student selected industry based genomic scientist presentation with possible topics including: Metagenomics / Pharmacogenomics / Epigenomicss / Personal genomics / Genome evolution / Genome editing and synthetic genomics / Social impacts and ethical implications of continuing genomic advances
+
+**Goals**: Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.
