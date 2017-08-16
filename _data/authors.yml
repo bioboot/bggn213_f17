@@ -25,7 +25,7 @@ barry:
   # Icons appear in order, can be rearranged:
   social:
     # facebook:        <username>
-    twitter:         <bioboot>
+    twitter:         bioboot
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -48,7 +48,7 @@ barry:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          <bioboot>
+    github:          bioboot
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
