@@ -7,21 +7,22 @@ barry:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Course Director:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; [**Prof. Barry J. Grant**](http://thegrantlab.org/) &nbsp; &nbsp; (Email: <bjgrant@ucsd.edu>)  
-    Instructional Assistant: &nbsp; [**Ileena Mitra**](ileenamitra@eng.ucsd.edu) &nbsp; &nbsp; &nbsp; (Email: <ileenamitra@eng.ucsd.edu>)  
-    Course Syllabus:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Fall 2017** (PDF)](https://bioboot.github.io/bggn213_f17/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
+  about: |
+    Course Director
+    : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
-#Course Director
-#: [Prof. Barry J. Grant](http://thegrantlab.org/) (Email <bjgrant@ucsd.edu>) </dd>
-#
-#Instructional Assistant
-#: [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: [ileenamitra@eng.ucsd.edu](mailto:ileenamitra@eng.ucsd.edu))
-#
-#Course Syllabus
-#: [Fall 2017 (PDF)](https://bioboot.github.io/bggn213_f17/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}
-#{:.message}
-#
+    Instructional Assistant
+    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
+
+    Course Syllabus
+    : [Fall 2017 (PDF)](https://bioboot.github.io/bggn213_f17/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}
+    {:.message}
+
+##  about:             |
+##    Course Director:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; [**Prof. Barry J. Grant**](http://thegrantlab.org/) &nbsp; &nbsp; (Email: <bjgrant@ucsd.edu>)  
+##    Instructional Assistant: &nbsp; [**Ileena Mitra**](ileenamitra@eng.ucsd.edu) &nbsp; &nbsp; &nbsp; (Email: <ileenamitra@eng.ucsd.edu>)  
+##    Course Syllabus:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Fall 2017** (PDF)](https://bioboot.github.io/bggn213_f17/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
+
   # This photo will be used in the about section
   picture:
     src:             /bggn213_f17/assets/img/logo.png
