@@ -5,7 +5,7 @@ permalink: /setup/
 menu: true
 order: 4
 description: > 
-  To fully participate in the hands-on sections of this course you will need access to the software described below on your **own laptop**. Note that you may need Administer privileges/permissions to install some of these.
+  To fully participate in the hands-on sections of this course you will need access to the software described below on your **own laptop**. Note that you may need Administrator privileges/permissions to install some of these.
 
 comments: true
 ---

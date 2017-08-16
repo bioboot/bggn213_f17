@@ -22,7 +22,15 @@ A total of 20% of the course grade will be assigned based on the mid-term. The p
 There will be one final exam that accounts for 45% of the final grade for the course. 
 - More details to follow!  
 
+Course Director
+: [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: [bjgrant@ucsd.edu](mailto:bjgrant@ucsd.edu))
 
+Instructional Assistant
+: [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: [ileenamitra@eng.ucsd.edu](mailto:ileenamitra@eng.ucsd.edu))
+
+Course Syllabus
+: [Fall 2017 (PDF)](https://bioboot.github.io/bggn213_f17/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}
+{:.message}
 
  
 
