@@ -24,28 +24,38 @@ Screen-cast covers: What are bioinformatics and computational biology? How do we
 ## Action items:
 Before class please:
 
-* Checkout the introductory ScreenCast:
-< http://bioboot.github.io/bioinf525_w16/module1/#1.1 >
+* Checkout the introductory ScreenCast: <https://bioboot.github.io/bggn213_f17/projects/welcome-screencast/>
 
-* Familiarize yourself with our course website:
-< http://bioboot.github.io/bioinf525_w16/ >
+* Familiarize yourself with our course website: <https://bioboot.github.io/bggn213_f17/>
 
-* Fill in our short pre-course questionnaire:
-< http://tinyurl.com/bioinf525-questions >
+* Fill in our short pre-course questionnaire: <http://tinyurl.com/bggn213-2017-questions>
 
-* Remember to charge your laptop and bring it to class!
-< http://bioboot.github.io/bioinf525_w16/setup/ >
+* Remember to charge your laptop and bring it to class! <https://bioboot.github.io/bggn213_f17/setup/>
 
-I look forward to seeing you all on Tuesday.
-Happy new term!
+I look forward to seeing you all on Tuesday.  
+Happy new term!  
 
-Barry Grant (bjgrant@ucsd.edu).
+**Barry Grant** (Email: <bjgrant@ucsd.edu>).  
 Course director and faculty member in Molecular Biology, Division of Biological Sciences, UCSD
 
-## Class streucture
+## Class structure
 We aim to structure each 9am - 12pm class with two breaks of 10 or 15 mins each between three main content/activity blocks, for example:
 
-Table here.
+| Time |         | Example content |
+| ------ | ---- | ---- |
+| 9:00 to 9:10am | Setup | Pre-class review & Questions |
+| 9:10 to 9:50am | **Content block 1** | Lecture content 1 |
+| 9:50 to 10:00am | Break 1 | Discuss and circulate with students |
+| 10:00 to 10:45am | **Content block 2** | Hands-on activity |
+| 10:45 to 11:00am | Break 2 | Discuss and circulate with students |
+| 11:00 to 11:45am | **Content block 3** | Lecture content 2 / Hands-on activity  |
+| 11:45 to 12:00am | Wrap-up | Post-class review & Questions |
+
+
+**N.B.** Please note our [Ethics code]({{ site.baseurl }}/ethics/) and help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bggn213-2017-questions). 
+{:.message}
+
+
 
 
 ***

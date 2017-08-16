@@ -88,22 +88,6 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 
 **Notes**: 
 Screen-cast covers: What are bioinformatics and computational biology?  How do we actually do bioinformatics?  Major areas of bioinformatics covered in this course.  
-
-We aim to structure each  9am - 12pm class with two *breaks* of 10 or 15 mins each between three main *content/activity blocks*, for example:
-
-
-| Time |         | Example content |
-| ------ | ---- | ---- |
-| 9:00 to 9:10am | Setup | Pre-class review & Questions |
-| 9:10 to 9:50am | **Content block 1** | Lecture content 1 |
-| 9:50 to 10:00am | Break 1 | Discuss and circulate with students |
-| 10:00 to 10:45am | **Content block 2** | Hands-on activity |
-| 10:45 to 11:00am | Break 2 | Discuss and circulate with students |
-| 11:00 to 11:45am | **Content block 3** | Lecture content 2 / Hands-on activity  |
-| 11:45 to 12:00am | Wrap-up | Post-class review & Questions |
-
-
-
 **N.B.** Please note our [Ethics code]({{ site.baseurl }}/ethics/) and help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioboot-questions-2017). 
 {:.message}
 
