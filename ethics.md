@@ -14,3 +14,11 @@ You are encouraged to collaborate with your fellow students. However, all materi
 You can learn more about academic integrity at [academicintegrity.ucsd.edu](http://academicintegrity.ucsd.edu) 
 (**Source**: UCSD Academic Integrity Office, 2017) 
 
+## Code of Conduct
+We are dedicated to providing a harassment-free learning experience for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of class participants in any form. Sexual language and imagery is not appropriate for any class venue, including talks, labs, parties, Twitter and other online media. Class participants violating these rules may be sanctioned or expelled from class at the discretion of the class organisers.  
+
+This Code of Conduct taken from <http://confcodeofconduct.com/>.
+
+
+## Need help?
+You can reach the course director, Barry Grant, at <bjgrant@ucsd.edu>. You can also talk to any of the IAs if you need immediate help, or (in an emergency) call 911.

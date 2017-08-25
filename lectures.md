@@ -63,25 +63,29 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 ## 1: Welcome to Foundations of Bioinformatics 
 
 **Topics**:  
-Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student [computer setup]({{ site.baseurl }}/setup/).  
+Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup.  
 
 **Goals**: 
-- Understand course scope, expectations, logistics and ethics code. 
-- Complete the [pre-course questionnaire]()
-- Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.
-- Understand the increasing necessity for computation in modern life sciences research
+- Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
+- Understand the increasing necessity for computation in modern life sciences research.  
+- Get introduced to how bioinformatics is practiced.  
+- Complete the [pre-course questionnaire]().  
+- Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
+
+<!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**: (To be updated!) 
 - [Pre class screen cast](https://vimeo.com/151178510),  
 - Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
-
+- Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
 - [Questions](https://docs.google.com/forms/d/1OZIgvobpGWRFajUXbW5mgbDtthacMcK4BK-0_4zwHME/viewform),  
-[Readings: PDF1]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
-[Readings: PDF2]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
-
+- Readings: 
+  - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
+  - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
+  - Other: [For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html) New York Times, 2014.  
   
 
 [![ScreenCast1.1](http://i.imgur.com/B9ev2Hq.png)](https://vimeo.com/151178510 "Welcome ScreenCast - Click to Watch!")
@@ -195,7 +199,11 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
  
 **Homework**:   
 - Questions,  
-- Readings: PDF1.  
+  * What flags will make the `ls` command write out the files sizes in “human-friendly” mode?
+  * What flag will make the `rm` command ask for permission when removing a file?
+  * What flag will make the `cp` command ask for permission if the copy would overwrite an existing file (this is called clobbering)?
+  
+- Readings:  
 
 
 <hr>
@@ -211,6 +219,12 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 - Think in terms of modular workflows for batch processing,  
 - Understand best practices for organizing computational projects.  
 
+<!--
+Learn how to obtain a remote data file from the command line.
+Understand how Unix pipes and output redirection works.
+Use simple Unix tools to investigate, search and summarize a data file.
+-->
+
 **Material**:  
 - Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
@@ -220,7 +234,21 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
  
 **Homework**:   
 - Questions,  
-- Readings: PDF1.   
+  * List an unexpected feature of a command of your choice. A feature that you would have not expected when reading about the command.
+  * The file [SGD_features.tab](http://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab) file contains the annotations for genomic features of the Yeast genome. The feature type is stored in the second column.
+    * Create a file that counts how many times does each type occur.
+    * What command would show the top ten most common features?
+    * What command would show the least common features?
+
+<!--
+cat SGD_features.tab | cut -f 2 > types.txt
+cat types.txt | sort | uniq -c | wc -1
+cat types.txt | sort | uniq -c | head
+--> 
+
+- Readings:   
+  * A Quick Guide to Organizing Computational Biology Projects, [Plos Comp Bio, 2009](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000424)
+  * Blog posts on [Designing projects](http://nicercode.github.io/blog/2013-04-05-projects/) and a [research workflow](http://carlboettiger.info/2012/05/06/research-workflow.html) based on github.
 
 
 <hr>
