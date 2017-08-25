@@ -63,7 +63,7 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 ## 1: Welcome to Foundations of Bioinformatics 
 
 **Topics**:  
-Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student computer setup.  
+Course introduction, Leaning goals & expectations, Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Student 30-second introductions, Student computer setup.  
 
 **Goals**: 
 - Understand course scope, expectations, logistics and [ethics code]({{ site.baseurl }}/ethics/).  
