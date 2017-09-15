@@ -3,7 +3,7 @@ layout: project
 title: Welcome to Bioinformatics (BGGN 213)
 date: 15 Aug 2017
 screenshot:
-  src: http://i.imgur.com/B9ev2Hq.png
+  src: https://i.vimeocdn.com/video/655557441_640.jpg
 #  srcset:
 #    1920w: https://qwtel.com/hydejack/assets/img/projects/hydejack-v6.jpg
 #    960w: https://qwtel.com/hydejack/assets/img/projects/hydejack-v6@0,5x.jpg
@@ -13,9 +13,9 @@ description: >
   Course introduction, Course logistics, Major leaning goals & expectations.
 links:
   - title: Download
-    url: https://player.vimeo.com/play/463538469?s=151178510_1502823257_930cd93766f9b7a24ee19002da57b6a1&loc=external&context=Vimeo%5CController%5CClipController.main&download=1
+    url: https://player.vimeo.com/video/234066823?s=151178510_1502823257_930cd93766f9b7a24ee19002da57b6a1&loc=external&context=Vimeo%5CController%5CClipController.main&download=1
   - title: Vimeo
-    url: https://vimeo.com/151178510
+    url: https://player.vimeo.com/video/234066823
 ---
 
 ## Notes:  
@@ -28,7 +28,7 @@ Before class please:
 
 * Familiarize yourself with our course website: <https://bioboot.github.io/bggn213_f17/>
 
-* Fill in our short pre-course questionnaire: <http://tinyurl.com/bggn213-2017-questions>
+* Fill in our short pre-course questionnaire: <https://goo.gl/forms/MH9ykT2Wjwl1ic2V2>
 
 * Remember to charge your laptop and bring it to class! <https://bioboot.github.io/bggn213_f17/setup/>
 

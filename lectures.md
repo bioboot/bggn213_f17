@@ -88,7 +88,8 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - Other: [For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html) New York Times, 2014.  
   
 
-[![ScreenCast1.1](http://i.imgur.com/B9ev2Hq.png)](https://vimeo.com/151178510 "Welcome ScreenCast - Click to Watch!")
+<iframe src="https://player.vimeo.com/video/234066823" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 **Notes**: 
 Screen-cast covers: What are bioinformatics and computational biology?  How do we actually do bioinformatics?  Major areas of bioinformatics covered in this course.  
