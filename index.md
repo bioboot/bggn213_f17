@@ -50,5 +50,5 @@ A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire]({{ site.baseurl }}/404/)  
-* Post-course questionnaire  
+* [Pre-course questionnaire](https://goo.gl/forms/MH9ykT2Wjwl1ic2V2)  
+* [Post-course questionnaire]({{ site.baseurl }}/404/)  
