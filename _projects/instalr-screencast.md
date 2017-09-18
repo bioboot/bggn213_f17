@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: video
 title: Setting up your computer with R
 date: 15 Aug 2017
 screenshot:
