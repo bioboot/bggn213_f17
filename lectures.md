@@ -74,9 +74,9 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
-**Material**: (To be updated!) 
-- [Pre class screen cast](https://vimeo.com/151178510),  
-- Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  
+**Material**:  
+- [Pre class screen cast](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
+- Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  (To be updated!)  
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
@@ -87,14 +87,22 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
   - Other: [For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html) New York Times, 2014.  
   
-
-<iframe src="https://player.vimeo.com/video/234066823" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-**Notes**: 
-Screen-cast covers: What are bioinformatics and computational biology?  How do we actually do bioinformatics?  Major areas of bioinformatics covered in this course.  
-**N.B.** Please note our [Ethics code]({{ site.baseurl }}/ethics/) and help us improve this course by completing this [pre-course questionnaire](http://tinyurl.com/bioboot-questions-2017). 
+**Screen Casts**:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P2oSO7YPyfU?rel=0" frameborder="0" allowfullscreen></iframe>
+**1 Welcome to BGGN-213:**
+Course introduction and logistics.
 {:.message}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gJNXQfpErLY?rel=0" frameborder="0" allowfullscreen></iframe>
+**2 What is Bioinformatics?**
+Course introduction and logistics.
+{:.message}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cCim7LrQZLY?rel=0" frameborder="0" allowfullscreen></iframe>
+**3 How do we actually do Bioinformatics?**
+A description of the computational setup for “Foundations of Bioinformatics” (BGGN-213).
+{:.message}
+
 
 <hr>
 <a name="2"></a>

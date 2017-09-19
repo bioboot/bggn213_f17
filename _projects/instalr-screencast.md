@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Setting up your computer with R
-date: 15 Aug 2017
+date: 14 Aug 2017
 screenshot:
   src: https://qwtel.com/hydejack/assets/img/projects/hyde-v2@0,25x.jpg
   srcset:
