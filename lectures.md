@@ -79,7 +79,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - SC1: [Welcome to BGGN-213](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
   - SC2: [What is Bioinformatics?]() and  
   - SC3: [How do we do Bioinformatics?]().   
-- Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  (To be updated!)  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},  (To be updated!)  
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
