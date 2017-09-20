@@ -75,33 +75,41 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 <!-- MAKE PRE-COURSE QUESTIONNAIRE and UPDATE LECTRUE SLIDES -->
 
 **Material**:  
-- [Pre class screen cast](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
+- Pre class screen casts (also see below):  
+  - SC1: [Welcome to BGGN-213](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
+  - SC2: [What is Bioinformatics?]() and  
+  - SC3: [How do we do Bioinformatics?]().   
 - Lecture Slides: Large PDF, [Small PDF]({{ site.baseurl }}/class-material/tmp.pdf){:.no-push-state},  (To be updated!)  
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
 **Homework**:  
-- [Questions](https://docs.google.com/forms/d/1OZIgvobpGWRFajUXbW5mgbDtthacMcK4BK-0_4zwHME/viewform),  
+- [Questions](https://docs.google.com/forms/d/e/1FAIpQLSeN3pg-AaRg5la3PxZuqSj1VGCQSxtc9_T30MPY7U85JhlBZA/viewform),  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state},  
   - Other: [For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html) New York Times, 2014.  
   
-**Screen Casts**:
+**Screen Casts**:  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P2oSO7YPyfU?rel=0" frameborder="0" allowfullscreen></iframe>
 **1 Welcome to BGGN-213:**
 Course introduction and logistics.
-{:.message}
+{:.message}  
+
+<br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gJNXQfpErLY?rel=0" frameborder="0" allowfullscreen></iframe>
 **2 What is Bioinformatics?**
-Course introduction and logistics.
-{:.message}
+Bioinformatics can mean diferent things to different people. What will we actually learn in this class?
+{:.message}  
+
+<br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cCim7LrQZLY?rel=0" frameborder="0" allowfullscreen></iframe>
-**3 How do we actually do Bioinformatics?**
-A description of the computational setup for “Foundations of Bioinformatics” (BGGN-213).
-{:.message}
+**3 How do we do Bioinformatics?**
+Some basic bioinformatics can be done online or with downloaded tools. However, most often we will need a specailized computational setup.
+{:.message}  
 
 
 <hr>
