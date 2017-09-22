@@ -5,11 +5,7 @@ Here we describe the process of starting up and managing a [Jetstream](https://j
 > **Note:** Jetstream is a cloud-based on-demand virtual machine system funded by the National Science Foundation. It will provide us with computers (what we call "virtual machine instances") that look and feel just like a regular Linux workstation but with thousands of times the computing power!
 {:.message}
 
-Below we walk through the process of starting up and accessing a Jetstream *instance* (a.k.a a computer in the cloud) . To begin with, just think of it like requesting and loging-in to a brand new remote computer. We have provided screenshots of the whole process that you can click on to see a larger version.  The important areas to fill in are circled in red.
-
-> **Note** Some of the details may vary -- for example, if you have your own XSEDE
-account, you may want to log in with that -- and the name of the operating
-system or "image" (i.e. type of computer) may also vary from "Ubuntu 16.04" depending on the lecture/class session requirments.
+Below we walk through the process of starting up and accessing a Jetstream *instance* (a.k.a a computer in the cloud) . To begin with, just think of it like requesting and loging-in to a brand new remote computer. We have provided screenshots of the whole process that you can click on to see a larger version.  The important areas to fill in are circled in red.  
 
 -----
 
@@ -72,6 +68,8 @@ Now, select 'New' and then "Instance" from the dropdown menu to start up a new m
 
 Enter "Ubuntu 16.04" into the search bar - make sure it's from
 June 21st, 2017.
+
+> **Note** Some of the details may vary here -- for example, the name of the operating system or "image" (i.e. type of computer) you want to request may vary from "Ubuntu 16.04" to something else depending on the lecture/class session requirments.  
 
 [![foo]({{ site.baseurl }}/jetstream/images/login-9.thumb.png)]({{ site.baseurl }}/jetstream/images/login-9.png){:.no-push-state}
            
