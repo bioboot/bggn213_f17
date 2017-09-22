@@ -18,7 +18,7 @@ In short, students will develop a solid foundational knowledge of bioinformatics
 
 
 ## Specific Learning Goals
-Teaching toward the specific learning goals below is expected to occupy 60%-70% of class time. The remaining course content is at the discretion of the instructor with student body input. This includes student selected topics for peer presentation as well one student selected guest lecture from an industry based genomic scientist.
+Teaching toward the specific learning goals below is expected to occupy 60%-70% of class time. The remaining course content is at the discretion of the instructor with student body input. This includes student selected topics for peer presentation, as well as one student selected guest lecture from an industry based genomic scientist.
 
 All students who receive a passing grade should be able to:
 
@@ -33,7 +33,7 @@ All students who receive a passing grade should be able to:
 | 6 | Use UNIX command-line tools for file system navigation and text file manipulation. | 6, 7, 10, 11, 24, 15 |
 | 7 | Use existing programs at the UNIX command line to analyze bioinformatics data. | 7, 10, 11, 13, 14, 15, 16 |
 | 8 | Use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis. | 8, 9, 10, 11, 13, 15, 16 |
-| 9 | Perform elementary statistical analysis on boimolecular and "omics" datasets with R and produce informative graphical displays and data summaries. | 9, 10, 11, 13, 15, 16 |
+| 9 | Perform elementary statistical analysis on biomolecular and "omics" datasets with R and produce informative graphical displays and data summaries. | 9, 10, 11, 13, 15, 16 |
 | 10 | View and interpret the structural models in the PDB. | 10, 11 |
 | 11 | Explain the outputs from structure prediction algorithms and small molecule docking approaches. | 11 |
 | 12 | Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible. |  13, 14, 15 |

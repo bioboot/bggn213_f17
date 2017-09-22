@@ -3,7 +3,7 @@
 To add a password to your Jetstream instance, 'Open the Web Shell' from the instance page.
 
 ```
-sudo password tx160085
+sudo password bioboot
 ```
 Enter a password when prompted. The letters will not display when you type, so do not be alarmed.
 
@@ -12,10 +12,10 @@ Enter a password when prompted. The letters will not display when you type, so d
 
 Exit out of the Web Shell.
 
-Open your terminal and login:
+Open your terminal and login using the correct IP address of your instance (i.e. likely not the one below!):
 
 ```
-ssh tx160085@149.165.157.62
+ssh bioboot@149.165.157.62
 ```
 
 Type your password when prompted.
