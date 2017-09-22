@@ -134,8 +134,7 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
  
 
 **Homework**:  
-- [Questions](https://docs.google.com/forms/d/1OZIgvobpGWRFajUXbW5mgbDtthacMcK4BK-0_4zwHME/viewform),  
-- [Questions](https://docs.google.com/forms/d/1AFsMMV26wq_2k0AKQ0p5A7KFdSts1H8tOhkdoV3TUq8/viewform),  
+- Questions,  
 - [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
 - [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
 
@@ -164,7 +163,7 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
  
  
 **Homework**:   
-- [Questions](https://docs.google.com/forms/d/1AFsMMV26wq_2k0AKQ0p5A7KFdSts1H8tOhkdoV3TUq8/viewform),  
+- Questions,  
 - [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
 - [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
 
