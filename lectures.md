@@ -117,26 +117,25 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 ## 2:  Bioinformatics databases and key online resources
 
 **Topics**:  
-NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf)) 
+NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf)) being able to judge their utility and quality is important.  
 
 **Goals**:  
 - Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB, UCSC, ENSEMBLE) and describe how these databases intersect.  
 - Be able to describe how nucleotide and protein sequence and structure data are represented (FASTA, FASTQ, GenBank, UniProt, PDB).
 - Be familiar with online tools at the EBI and NCBI including Muscle and BLAST.
-- The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst investigating the molecular basis of several common human disease.  
+- The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.  
 
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
-- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf){:.no-push-state}  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab_1.1_w17.pdf){:.no-push-state}
-- Muddy point assessment  
+- [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17.pdf){:.no-push-state}
+- [Muddy point assessment](http://tinyurl.com/bggn13-02){:.no-push-state}  
  
 
 **Homework**:  
 - Questions,  
-- [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
-- [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
+- Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
+- Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
 
  
 <hr>
