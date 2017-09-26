@@ -117,7 +117,7 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 ## 2:  Bioinformatics databases and key online resources
 
 **Topics**:  
-NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_W16.pdf)) being able to judge their utility and quality is important.  
+NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}) and being able to judge their utility and quality is important.  
 
 **Goals**:  
 - Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB, UCSC, ENSEMBLE) and describe how these databases intersect.  
