@@ -27,15 +27,15 @@ on "Continue".
 
 ## Fill in the username and password and click "Sign in"
 
-Fill in the username, which is 'tx160085' for the ANGUS workshop,
-and then enter the password (which we will tell you in class).
+Fill in the username, which is '**tb170077**' for the Fall 2017 BGGN-213 class,
+and then enter the password - which we will tell you in class (simply ask Barry if you have forgotten)).
 
 [![foo]({{ site.baseurl }}/jetstream/images/login-3.thumb.png)]({{ site.baseurl }}/jetstream/images/login-3.png){:.no-push-state}
            
 ## Select Projects and "Create New Project"
 
 Now, this is something you only need to once if you have your own
-account - but if you're using a shared account like tx160085, you will
+account - but if you're using a shared account like tb170077, you will
 need a way to keep your computers separate from everyone else's.
 
 We'll do this with Projects, which give you a bit of a workspace in which
@@ -90,7 +90,7 @@ Just wait! Don't reload or anything.
 ## Click on your new instance to get more information!
 
 Now, you can either click "Open Web Shell", *or*, if you know how to use ssh,
-you can ssh in as user 'tx160085' on the IP address of the machine - see
+you can ssh in as user 'tb170077' on the IP address of the machine - see
 circled information below.  Note that you'll need to use the private key
 file we sent around to everyone in last the pre-workshop e-mail if you decide to
 use your system terminal.
