@@ -4,7 +4,7 @@ Some of us have had problems with the web shell and getting into the Jetstream
 portal. These materials will show you how to log in using an SSH key through your
 local terminal.
 
-## Concerning Keys
+## What are Cryptographic Keys?
 
 Cryptographic keys are a convenient and secure way to authenticate without having to use
 passwords. They consist of a pair of files called the public and private keys: the public part can
@@ -26,47 +26,43 @@ visiting [here](https://dibsi.slack.com/files/camillescott/F60FMTCCA/angus_priva
 ## Getting your instance IP address
 
 In order to connect to your instance, we need to know its IP address, its unique identifier on the
-internet. This is listed in your instance details, circled below:
+internet. This is listed in your instance details, circled in red below:
 
-[![stuff]({{ site.baseurl }}/jetstream/images/ip-address.png)]({{ site.baseurl }}/jetstream/images/ip-address.png)
+[![login]({{ site.baseurl }}/jetstream/images/web_login_IP.png)]({{ site.baseurl }}/jetstream/images/web_login_IP.png){:.no-push-state}  
+
 
 Now, things diverge a little.
 
 ## On MacOS/Linux
 
-These systems have their own terminal by default. Find and open your terminal: on MacOS, you can
-search for Terminal in finder. 
+These systems have their own terminal by default. Find and open your terminal application. On MacOS, you can
+search for Terminal in finder. Typically it is located in `/Applications/Utilities` and you may want to keep Terminal in your dock for this class.
 
 We're going to assume that the key file ended up in your `Downloads` folder. In your terminal,
 run:
 
 ```bash
-cd && mv ~/Downloads/angus_private_key .
+cd && mv ~/Downloads/bggn213_private_key .
 ```
 
 This puts the file in your home folder. Now, we need to set its permissions more strictly:
 
 ```bash
-chmod 600 angus_private_key
+chmod 600 bggn213_private_key
 ```
 
 Finally, we can use the IP address from before, along with the common login name and the key, to log
 in:
 
 ```bash
-ssh -i angus_private_key tx160085@YOUR_IP_ADDRESS
+ssh -i bggn213_private_key tb170077@YOUR_IP_ADDRESS
 ```
 
 You should now have access to atmosphere within your local terminal.
 
 ## On Windows
 
-For Windows, we first need to actually *install* a terminal.
-
-### Install mobaxterm
-
-First, download [mobaxterm home edition (portable)](http://mobaxterm.mobatek.net/download-home-edition.html)
-and run it.
+For Windows, we first need to actually *install* a terminal. If you have followed the [course computer setup instructions]({{ site.baseurl }}/setup/) then you will already have mobaxterm installed. If not first download [mobaxterm home edition (portable)](http://mobaxterm.mobatek.net/download-home-edition.html) and run it.
 
 ### Start a new session
 
@@ -75,7 +71,7 @@ and run it.
 ### Fill in session settings
 
 Fill in your "remote host," which will be the IP address from earlier. Then select
-"specify username" and enter `tx160085`.
+"specify username" and enter `tb170077`.
 
 [![foo]({{ site.baseurl }}/jetstream/images/ec2-moba-2.png)]({{ site.baseurl }}/jetstream/images/ec2-moba-2.png)
 

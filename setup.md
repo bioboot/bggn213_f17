@@ -52,6 +52,15 @@ When you're writing code, it's nice to have a text editor that is optimized for 
 **Windows:** Nano can be installed as a plugin to mobaxterm (see above). First start mobaxterm and then in the mobaxterm terminal type: `mobapt` Pressing Return will bring up a panel listing available additions. Please select **nano** by clicking on its entry and then the “Install/Update” button.
  
 
+### Using Jetstream
+
+Jetstream is a cloud-based on-demand virtual machine system funded by the National Science Foundation. It will provide us with UNIX based computers (what we call “virtual machine instances”) that look and feel just like a regular Linux workstation but with thousands of times the computing power!  
+
+We will cover configuring and conecting to Jetstream in class. You can also find detailed *step-by-step* instructions for:
+
+ - [Starting a Jetstream Computer Instance]({{ site.baseurl }}/jetstream/boot/),
+ - [Logging in to jetstream from your local terminal]({{ site.baseurl }}/jetstream/login/),
+ - [Adding password to a Jetstream instance]({{ site.baseurl }}/jetstream/ssh_changepassword/). 
 
 <!--- Still to complete...
 ### Why this class

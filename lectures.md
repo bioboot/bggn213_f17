@@ -197,7 +197,7 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 <br>
 
 ## 5: Introduction to UNIX for bioinformatics   
-**Topics**: Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers.
+**Topics**: Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Starting up and managing a Jetstream service virtual machine instance.
 
 **Goal**: 
 - Understand why we use UNIX for bioinformatics
@@ -209,6 +209,7 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 - Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
 - Hands-on section worksheet
+- [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
 - Muddy point assessment  
  
  
