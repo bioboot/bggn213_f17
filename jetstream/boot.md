@@ -21,16 +21,18 @@ Now click the **login** link in the upper right.
 ## Use "XSEDE"
 
 Choose "XSEDE" as your account provider (it should be the default) and click
-on "Continue".
-           
-[![foo]({{ site.baseurl }}/jetstream/images/login-2.thumb.png)]({{ site.baseurl }}/jetstream/images/login-2.png){:.no-push-state}
+on "Continue".  
 
-## Fill in the username and password and click "Sign in"
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_02.png)]({{ site.baseurl }}/jetstream/images/web_login_02.png){:.no-push-state}  
+
+
+## Fill in the username (tb170077) and password and click "Sign in"
 
 Fill in the username, which is '**tb170077**' for the Fall 2017 BGGN-213 class,
-and then enter the password - which we will tell you in class (simply ask Barry if you have forgotten)).
+and then enter the password - which we will tell you in class (simply ask Barry if you have forgotten).
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-3.thumb.png)]({{ site.baseurl }}/jetstream/images/login-3.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_03.png)]({{ site.baseurl }}/jetstream/images/web_login_03.png){:.no-push-state}  
+
            
 ## Select Projects and "Create New Project"
 
@@ -43,59 +45,77 @@ to keep things that belong to "you".
 
 Click on "Projects" up along the top.
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-5.thumb.png)]({{ site.baseurl }}/jetstream/images/login-5.png){:.no-push-state}
-           
-## Name the project for yourself, click "create"
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_04.png)]({{ site.baseurl }}/jetstream/images/web_login_04.png){:.no-push-state}  
 
-Enter your name into the Project Name, and something simple like "ANGUS"
+          
+## Name the project for yourself and click "create"
+
+Enter your name into the Project Name, and something simple like "BGGN-213 class 4"
 into the description. Then click 'create'.
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-6.thumb.png)]({{ site.baseurl }}/jetstream/images/login-6.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_06.png)]({{ site.baseurl }}/jetstream/images/web_login_06.png){:.no-push-state}  
+
 
 ## Select the newly created project
 
 Click on your new project!
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-7.thumb.png)]({{ site.baseurl }}/jetstream/images/login-7.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_10.png)]({{ site.baseurl }}/jetstream/images/web_login_10.png){:.no-push-state}  
+
            
 ## Within the project, select "new"
 
 Now, select 'New' and then "Instance" from the dropdown menu to start up a new machine.
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-8.thumb.png)]({{ site.baseurl }}/jetstream/images/login-8.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_07.png)]({{ site.baseurl }}/jetstream/images/web_login_07.png){:.no-push-state}  
+
 
 ## Find the "Ubuntu 16.04" image, click on it
 
-Enter "Ubuntu 16.04" into the search bar - make sure it's from
-June 21st, 2017.
+Enter "Ubuntu 16.04" into the **search bar** - make sure it's from
+Sept 28th, 2017 (or later).
 
-> **Note** Some of the details may vary here -- for example, the name of the operating system or "image" (i.e. type of computer) you want to request may vary from "Ubuntu 16.04" to something else depending on the lecture/class session requirments.  
+> **Note** Some of the details may vary here -- for example, the name of the operating system or "image" (i.e. type of computer) you want to request may vary from "Ubuntu 16.04" to something else (like Galaxy Standalone) depending on the lecture/class session requirements.  
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-9.thumb.png)]({{ site.baseurl }}/jetstream/images/login-9.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_11.png)]({{ site.baseurl }}/jetstream/images/web_login_11.png){:.no-push-state}  
+
            
 ## Name it something simple and select 'm1.medium'
 
-Change the name after what we're doing - "workshop tutorial", for example,
-but it doesn't matter -- and select 'm1.medium'.
+Change the name to reflect what we are are going to do - For example, "BGGN-213 class no. 4" (labeled as step 1 below), select 'm1.medium' (step 2 below) and finally click 'LAUNCH INSTANCE' (step 3 below).
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-10.thumb.png)]({{ site.baseurl }}/jetstream/images/login-10.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_12.png)]({{ site.baseurl }}/jetstream/images/web_login_12.png){:.no-push-state}  
 
-## Wait for it to become active
+## Be patient and wait for it to become 'active'
 
-It will now be booting up! This will take 2-10 minutes, depending.
-Just wait! Don't reload or anything.
+It will take some time to build, boot up, and network and deploy your requested instance. Often between 5 and 10 minutes but occasionally longer during busy times. **Please just wait!** and **DO NOT RELOAD ANYTHING**.  
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-11.thumb.png)]({{ site.baseurl }}/jetstream/images/login-11.png){:.no-push-state}
+
+The 'Status' displayed on the webpage will change from a little yellow ball icon to green and list 'Active' along with an 'IP Address'.  
+
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_13.png)]({{ site.baseurl }}/jetstream/images/web_login_13.png){:.no-push-state}  
+
            
 ## Click on your new instance to get more information!
 
-Now, you can either click "Open Web Shell", *or*, if you know how to use ssh,
+Now, you can either click "**Open Web Shell**", *or*, if you know how to use ssh,
 you can ssh in as user 'tb170077' on the IP address of the machine - see
-circled information below.  Note that you'll need to use the private key
-file we sent around to everyone in last the pre-workshop e-mail if you decide to
-use your system terminal.
+highlighted information below.  Note that you'll need to use the ssh key
+file we sent to you if you decide to use your system terminal. Please ask Barry about this if you are unsure about what you are doing here.
 
-[![foo]({{ site.baseurl }}/jetstream/images/login-12.thumb.png)]({{ site.baseurl }}/jetstream/images/login-12.png){:.no-push-state}
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_14.png)]({{ site.baseurl }}/jetstream/images/web_login_14.png){:.no-push-state}  
+
+
+## Using Open Web Shell  
+
+Upon clicking "**Open Web Shell**" a new web browser tab should open and log you in to your computer instance (see below). This will look like (and work some what like) a unix terminal (see below).  
+
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_15.png)]({{ site.baseurl }}/jetstream/images/web_login_15.png){:.no-push-state}  
+
+Occasionally, in my experience once in every four attempts, the web shell will not log you in. In these case click on the "**X**" to close the current session and then launch a new SSH terminal. You may have to repeat this close and open cycle several times. This is a known bug with Web Shell unfortunately.
+
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_15.png)]({{ site.baseurl }}/jetstream/images/web_login_15.png){:.no-push-state}  
+
 
 ## Miscellany
 
