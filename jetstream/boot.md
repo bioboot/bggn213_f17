@@ -113,9 +113,11 @@ Upon clicking "**Open Web Shell**" a new web browser tab should open and log you
 
 [![foo]({{ site.baseurl }}/jetstream/images/web_login_15.png)]({{ site.baseurl }}/jetstream/images/web_login_15.png){:.no-push-state}  
 
-Occasionally, in my experience once in every four attempts, the web shell will not log you in. In these cases click on the "**X**" on the top right side of the window to close the current session and then launch a new SSH terminal. You may have to repeat this *close and open* cycle several times. This is a known bug with Web Shell unfortunately.
+Occasionally, in my experience once in every four attempts, the web shell will not log you in (see below). In these cases click on the "**X**" on the top right side of the window to close the current session and then launch a new SSH terminal. You may have to repeat this *close and open* cycle several times. This is a known bug with Web Shell unfortunately.
 
-[![foo]({{ site.baseurl }}/jetstream/images/web_login_15.png)]({{ site.baseurl }}/jetstream/images/web_login_15.png){:.no-push-state}  
+[![foo]({{ site.baseurl }}/jetstream/images/web_fail.png)]({{ site.baseurl }}/jetstream/images/web_fail.png){:.no-push-state}  
+
+[![foo]({{ site.baseurl }}/jetstream/images/web_login_16.png)]({{ site.baseurl }}/jetstream/images/web_login_16.png){:.no-push-state}  
 
 
 ## Using your local terminal or mobaxterm
