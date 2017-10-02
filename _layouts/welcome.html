@@ -10,6 +10,8 @@ layout: about
 
 {% if page.selected_projects %}
   <h2>Selected screencast videos</h2>
+  <p>These short (sub 10 minute) videos are available for students to watch before class and are designed to help address potential variability in student background knowledge and aid with class inclusivity.</p></br>
+
   {% assign is_newline = true %}
   {% for project_path in page.selected_projects %}
     {% assign project = site.projects | where:"path", project_path | first %}

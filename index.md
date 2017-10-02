@@ -52,3 +52,13 @@ A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
 * [Pre-course questionnaire](https://goo.gl/forms/MH9ykT2Wjwl1ic2V2)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
+
+## Acknowledgments:
+In addition to working on personal laptops we will also be using remote supercomputing resources for analyzing bioinformatics data at scale. Our use of these resources is kindly supported by [NSF/XSEDE](https://www.xsede.org/) grant allocation TG-BIO170077.  
+
+[![xsede]({{ site.baseurl }}/jetstream/images/xsede.png)](https://jetstream-cloud.org/){:.no-push-state}  
+
+To further support learning data analysis with the R environment we gratefully acknowledge support from [DataCamp](https://www.datacamp.com/). DataCamp are providing our enrolled students with access to over 300 hours of data science videos and interactive coding challenges aimed at strengthening their data science skills.  
+
+[![datacamp]({{ site.baseurl }}/jetstream/images/DataCamp.png)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213){:.no-push-state}  
+
