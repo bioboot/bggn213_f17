@@ -79,7 +79,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
   - SC1: [Welcome to BGGN-213](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
   - SC2: [What is Bioinformatics?]() and  
   - SC3: [How do we do Bioinformatics?]().   
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},  (To be updated!)  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},    
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 
@@ -120,13 +120,13 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBank, UniProt, Entrez and Gene Ontology. Hands on with BLAST, GenBank, OMIM, GENE, UniProt, Muscle, PFAM and PDB bioinformatics tools and databases. There are many bioinformatics databases (see [handout]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}) and being able to judge their utility and quality is important.  
 
 **Goals**:  
-- Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB, UCSC, ENSEMBLE) and describe how these databases intersect.  
+- Be able to query, search, compare and contrast the data contained in major bioinformatics databases (GenBank, GENE, UniProt, PFAM, OMIM, PDB) and describe how these databases intersect.  
 - Be able to describe how nucleotide and protein sequence and structure data are represented (FASTA, FASTQ, GenBank, UniProt, PDB).
 - Be familiar with online tools at the EBI and NCBI including Muscle and BLAST.
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services whilst actively investigating the molecular basis of several common human disease.  
 
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17-small.pdf){:.no-push-state},  
 - [Handout: Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_F17.pdf){:.no-push-state}  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture2-BGGN213_F17.pdf){:.no-push-state}
 - [Muddy point assessment](http://tinyurl.com/bggn13-02){:.no-push-state}  
