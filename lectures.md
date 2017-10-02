@@ -132,8 +132,7 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
 - [Muddy point assessment](http://tinyurl.com/bggn13-02){:.no-push-state}  
  
 
-**Homework**:  
-- Questions,  
+**Homework**:    
 - Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
 - Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
 
@@ -208,8 +207,10 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 **Material**:  
 - Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
+- Hands-on section worksheets
+  * Begining Unix 
+  * Example data to download and explore: [bggn213_01_unix.tar.gz]({{ site.baseurl }}/class-material/bggn213_01_unix.tar.gz){:.no-push-state} 
+  * [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
 - Muddy point assessment  
  
  
@@ -245,6 +246,9 @@ Use simple Unix tools to investigate, search and summarize a data file.
 - Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
 - Hands-on section worksheet
+  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/)
+  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/)
+  * [Visualizing results with R/RStudio]({{ site.baseurl }}/class-material/05_blast-03/)
 - Muddy point assessment  
  
  
@@ -268,7 +272,6 @@ cat types.txt | sort | uniq -c | head
 
 
 <hr>
-# UNDER CONSTRUCTION!
 <a name="7"></a>
 <br>
 
