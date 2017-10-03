@@ -40,7 +40,9 @@ Lectures are on Tuesday and Thursday at 9:00 - 12:00 pm in Warren Lecture Hall 2
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-TBD – For now email me for a time and we will make it happen.  
+Office hours will be held on Wednesday 3-4pm each week in the *Center for Neural Circuits*, Room 115, Office suite 104. [Map](https://goo.gl/maps/KLkFz7g9TF42){:.no-push-state}.  
+
+From week 3 onward Barry will hold an additional informal office hour from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}. If you can't make either of these please email me for a time and we will make it happen.  
 
 ## Textbook:  
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
