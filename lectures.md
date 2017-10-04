@@ -145,7 +145,7 @@ NCBI & EBI resources for the molecular domain of bioinformatics, Focus on GenBan
 
 **Topics**:  
 Sequence Alignment and Database Searching
-Homology, Sequence similarity, Local and global alignment, Database searching with BLAST. PSI-BLAST, Profiles and HMMs, Protein structure comparisons.
+Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
 
 **Goal**:  
 - Be able to describe how dynamic programming works for pairwise sequence alignment 
@@ -153,17 +153,15 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 - Understand how aligning novel sequences with previously characterized genes or proteins provides important insights into their common attributes and evolutionary origins. 
 - The goals of the hands-on session are to explore the principles underlying the computational tools that can be used to compute and evaluate sequence alignments. 
 
-**Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
+**Material**:   
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BGGN213-small.pdf){:.no-push-state},  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture3-BGGN213_F17-lab.pdf){:.no-push-state}
+- [Muddy point assessment](https://goo.gl/forms/cmqxkNYwNRDADlXD3){:.no-push-state}  
  
  
 **Homework**:   
-- Questions,  
-- [Readings: PDF1]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
-- [Readings: PDF2]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
+- [Quiz Questions](https://goo.gl/forms/Dxt0T03MPYusSmD92){:.no-push-state},  
+- [Alignemnt Problem]({{ site.baseurl }}/class-material/lecture3-homework.pdf){:.no-push-state},  
 
 
 
@@ -171,12 +169,13 @@ Homology, Sequence similarity, Local and global alignment, Database searching wi
 <br>
 
 ## 4:  Advanced Database Searching
-**Topics**: Database searching beyond BLAST, PSI-BLAST, Profiles and HMMs, Protein structure comparisons  
+**Topics**: Database searching beyond BLAST, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.  
 
 **Goal**: 
 - Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
 - Understand the limits of homology detection with tools such as BLAST 
 - Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
+- Run our first bioinformatics tool from the command line.
 
 **Material**:  
 - Pre class screen cast,  
