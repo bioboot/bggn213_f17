@@ -77,8 +77,8 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:  
 - Pre class screen casts (also see below):  
   - SC1: [Welcome to BGGN-213](https://www.youtube.com/watch?v=P2oSO7YPyfU),  
-  - SC2: [What is Bioinformatics?]() and  
-  - SC3: [How do we do Bioinformatics?]().   
+  - SC2: [What is Bioinformatics?](https://www.youtube.com/embed/gJNXQfpErLY?rel=0) and  
+  - SC3: [How do we do Bioinformatics?](https://www.youtube.com/embed/cCim7LrQZLY?rel=0).   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BGGN213_F17-small.pdf){:.no-push-state},    
 - [Handout: Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F17_syllabus.pdf){:.no-push-state}  
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
@@ -161,7 +161,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
  
 **Homework**:   
 - [Quiz Questions](https://goo.gl/forms/Dxt0T03MPYusSmD92){:.no-push-state},  
-- [Alignemnt Problem]({{ site.baseurl }}/class-material/lecture3-homework.pdf){:.no-push-state},  
+- [Alignment Problem]({{ site.baseurl }}/class-material/lecture3-homework.pdf){:.no-push-state},  
 
 
 
@@ -178,16 +178,13 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Run our first bioinformatics tool from the command line.
 
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture4_BGGN213_F17-lab.pdf){:.no-push-state}
+- [Muddy point assessment](https://goo.gl/forms/2SZ2tkd4vRFBZ9vv2)  
  
  
 **Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
+- Questions and alignment problem from Lecture 3 above are due before the next class.  
 
 
 <hr>
@@ -204,10 +201,10 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Be able to connect to remote servers from the command line.  
 
 **Material**:  
-- Pre class screen cast,  
+- [Pre class screen cast](https://www.youtube.com/watch?v=B8CrLITkDVo),  
 - Lecture Slides: Large PDF, Small PDF,  
 - Hands-on section worksheets
-  * Begining Unix 
+  * Beginning Unix 
   * Example data to download and explore: [bggn213_01_unix.tar.gz]({{ site.baseurl }}/class-material/bggn213_01_unix.tar.gz){:.no-push-state} 
   * [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
 - Muddy point assessment  
@@ -218,8 +215,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
   * What flags will make the `ls` command write out the files sizes in “human-friendly” mode?
   * What flag will make the `rm` command ask for permission when removing a file?
   * What flag will make the `cp` command ask for permission if the copy would overwrite an existing file (this is called clobbering)?
-  
-- Readings:  
+   
 
 
 <hr>

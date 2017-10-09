@@ -12,7 +12,7 @@ screenshot:
 video: "https://www.youtube.com/embed/B8CrLITkDVo"
 caption: Introduction to the Jetstream on-demand virtual machine system.
 description: >
-  We will use the NSF/XESED Jetstream on-demand virtual machine system for large-scale bioinformatics calculations during this course.
+  Here we introduce the NSF/XESED Jetstream on-demand virtual machine system that we will use for large-scale bioinformatics calculations during this course.
 links:
   - title: Download
     url: https://player.vimeo.com/video/234066823?s=151178510_1502823257_930cd93766f9b7a24ee19002da57b6a1&loc=external&context=Vimeo%5CController%5CClipController.main&download=1
@@ -23,7 +23,7 @@ links:
 ## Notes:  
 Jetstream is a cloud-based on-demand virtual machine system funded by the National Science Foundation. It will provide us with UNIX based computers (what we call “virtual machine instances”) that look and feel just like a regular Linux workstation but with thousands of times the computing power!
 
-Here we cover configuring and conecting to Jetstream to suplement these detailed [step-by-step instructions]({{ site.baseurl }}/jetstream/boot/).
+Here we cover configuring and connecting to Jetstream to supplement these detailed [step-by-step instructions]({{ site.baseurl }}/jetstream/boot/).
 
 ***
 
