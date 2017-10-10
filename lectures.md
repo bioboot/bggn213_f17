@@ -178,7 +178,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Run our first bioinformatics tool from the command line.
 
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture4_BGGN213_F17-lab.pdf){:.no-push-state}
 - [Muddy point assessment](https://goo.gl/forms/2SZ2tkd4vRFBZ9vv2)  
  
