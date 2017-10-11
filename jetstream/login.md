@@ -23,8 +23,8 @@ The private key for our class account is available from a link we will tell you 
 
 ## Getting your instance IP address
 
-In order to connect to your instance, we need to know its IP address, its unique identifier on the
-internet. This is listed in your instance details, circled in red below:
+Assuming you have already gone through the process of [starting up a jetstream instance]({{ site.baseurl }}/jetstream/boot/) and that instance is currently *Active*, we can now connect to your instance if we know its IP address (its unique identifier on the
+internet). This is listed in your instance details, circled in red below:
 
 [![login]({{ site.baseurl }}/jetstream/images/web_login_IP.png)]({{ site.baseurl }}/jetstream/images/web_login_IP.png){:.no-push-state}  
 
@@ -56,7 +56,7 @@ in:
 ssh -i bggn213_private_key tb170077@YOUR_IP_ADDRESS
 ```
 
-You should now have access to atmosphere within your local terminal.
+You should now have access to your jetstream instance within your local terminal.
 
 [![ssh]({{ site.baseurl }}/jetstream/images/terminal.png)]({{ site.baseurl }}/jetstream/images/terminal.png){:.no-push-state}  
 
@@ -77,8 +77,7 @@ Fill in your "remote host," which will be the IP address from earlier. Then sele
 
 ### Specify the session key
 
-Copy the downloaded private file onto your primary hard disk (generally
-C:) and the put in the full path to it.
+Copy the downloaded private file onto your primary hard disk (generally C:) and then put in the full path to it (i.e. the drive and folders if any that the keyfile resides in, see below image for an example).
 
 [![foo]({{ site.baseurl }}/jetstream/images/ec2-moba-3.png)]({{ site.baseurl }}/jetstream/images/ec2-moba-3.png)
 
