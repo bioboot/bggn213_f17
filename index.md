@@ -3,7 +3,7 @@ layout: welcome
 title: Foundations of Bioinformatics <br> (BGGN 213, Fall 2017)
 selected_projects:
   - _projects/welcome-screencast.md
-  - _projects/instalr-screencast.md
+  - _projects/using-jetstream-for-bioinformatics.md
 more_projects: projects.md
 ---
 
