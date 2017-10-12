@@ -202,20 +202,19 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Material**:  
 - [Pre class screen cast](https://www.youtube.com/watch?v=B8CrLITkDVo),  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheets
-  * Beginning Unix 
-  * Example data to download and explore: [bggn213_01_unix.tar.gz]({{ site.baseurl }}/class-material/bggn213_01_unix.tar.gz){:.no-push-state} 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state},  
+- Hands-on sections taken from [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/){:.no-push-state},  
+  * [Unix Reference Commands and Glossary]({{ site.baseurl }}/class-material/unix-reference/),   
+  * Example data to download and explore: [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state}.  Please download and move it to your Desktop and unzip.
   * [Starting and connecting to a Jetstream virtual machine]({{ site.baseurl }}/jetstream/boot/).
-- Muddy point assessment  
+- [Muddy point assessment](https://goo.gl/forms/GAkMu5cSk3J25FPa2)  
  
  
 **Homework**:   
-- Questions,  
-  * What flags will make the `ls` command write out the files sizes in “human-friendly” mode?
-  * What flag will make the `rm` command ask for permission when removing a file?
-  * What flag will make the `cp` command ask for permission if the copy would overwrite an existing file (this is called clobbering)?
-   
+- Complete Software Carpentry UNIX lesson [sections 5 and 6](https://swcarpentry.github.io/shell-novice/){:.no-push-state}.  
+- Read: [A Quick Guide to Organizing Computational Biology Projects (Noble 2009)](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424){:.no-push-state}.  
+- Optional: [Introduction to Bash Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting){:.no-push-state}.   
+ 
 
 
 <hr>
@@ -235,6 +234,10 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 Learn how to obtain a remote data file from the command line.
 Understand how Unix pipes and output redirection works.
 Use simple Unix tools to investigate, search and summarize a data file.
+  * What flags will make the `ls` command write out the files sizes in “human-friendly” mode?
+  * What flag will make the `rm` command ask for permission when removing a file?
+  * What flag will make the `cp` command ask for permission if the copy would overwrite an existing file (this is called clobbering)?
+
 -->
 
 **Material**:  
