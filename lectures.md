@@ -241,13 +241,12 @@ Use simple Unix tools to investigate, search and summarize a data file.
 -->
 
 **Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture6-BGGN213-small.pdf){:.no-push-state},  
 - Hands-on section worksheet
-  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/)
-  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/)
-  * [Visualizing results with R/RStudio]({{ site.baseurl }}/class-material/05_blast-03/)
-- Muddy point assessment  
+  * [Running command-line BLAST]({{ site.baseurl }}/class-material/05_blast-01/){:.no-push-state},
+  * [Running large and long command line jobs]({{ site.baseurl }}/class-material/05_blast-02/){:.no-push-state},
+  * [Visualizing results with R/RStudio]({{ site.baseurl }}/class-material/05_blast-03/){:.no-push-state}.
+- [Muddy point assessment](https://goo.gl/forms/KHUlvRoEgJlx1JnD2){:.no-push-state}.  
  
  
 **Homework**:   

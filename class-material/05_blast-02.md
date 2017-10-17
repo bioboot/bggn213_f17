@@ -76,7 +76,7 @@ from speciation (i.e. are the "same" gene in cow and mouse) and
 are presumed to have the same function, although that is a computational
 inference that needs to be treated with care.
 >
-> As we'll see on Friday, the computation of orthologs (or homologs more
+> As we'll see later in the course, the computation of orthologs (or homologs more
 generally) is a core step in annotating genomes and transcriptomes.
 The reason is that you don't automatically get gene assignments when
 you build a new genome or transcriptome - you just get unidentified
@@ -159,7 +159,6 @@ words, and characters are in the file:
 
 
 (A precomputed version of this file is available [for download here]((https://github.com/ngs-docs/angus/raw/17a0ba3b1d915de90a5b8bd1fbc1027eba47baf8/_static/shmlast/mouse.1.rna.fna.gz.x.cow.faa.crbl.csv.gz).)
-
 
 
 

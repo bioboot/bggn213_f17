@@ -166,7 +166,7 @@ Things to mention and discuss:
 * command line options, more generally - why so many?
 * automation rocks!
 
-# Reminder: shut down your instance!
+# Reminder: shut down your instance if you are stopping here!
 
 ### Other topics to discuss:
 
