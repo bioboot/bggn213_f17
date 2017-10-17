@@ -47,12 +47,12 @@ echo My RStudio Web server is running at: http://$(hostname):8787/
 
 After running this, copy/paste the URL into your Web browser; you should
 see login page. Enter the XSEDE username and password you were given
-(should be `tx160085` username, with associated password).
+(should be `tb170077` username, with associated password).
 
 If the login is unsuccessful, return to the terminal and run:
 
 ```
-sudo passwd tx160085
+sudo passwd tb170077
 ```
 to change your password for this instance.
 
@@ -213,3 +213,5 @@ work.
   and do you notice anything interesting about the names?  (They're
   all predicted/inferred genes.) What does this suggest about that
   "quadrant" of the data?
+
+  # We will learn all about R in the next class!
