@@ -15,9 +15,11 @@ If you don't already have one running then please start up an **m1.medium** inst
 Copy and paste the following commands into your jetstream instance command line to updates the software list and install the base packages we will need for this session:
 
 ```
-sudo apt-get -y update && \
-sudo apt-get install -y python3.5-dev python3.5-venv make \
-    libc6-dev g++ zlib1g-dev last-align parallel
+sudo apt-get -y update 
+```
+
+```
+sudo apt-get install -y python3.5-dev python3.5-venv make libc6-dev g++ zlib1g-dev last-align parallel
 ```
 
 Then create a Python environment with `virtualenv`, which will isolate your python packages:
