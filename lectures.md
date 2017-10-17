@@ -276,7 +276,7 @@ cat types.txt | sort | uniq -c | head
 **Topics**: R language basics and the RStudio IDE, Major R data structures and functions, Data Exploration and Visualization in R, Working with R packages from CRAN & Bioconductor.
 
 **Goal**: 
-- Familiarity to R's basic syntax
+- Familiarity with R's basic syntax
 - Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis.
 - Familiarity with major R data structures (vectors, matrices and data.frames).
 - Understand the basics of using functions (arguments, vectorizion and re-cycling),
@@ -284,9 +284,8 @@ cat types.txt | sort | uniq -c | head
 
  
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
+- [Hands-on section 1]({{ site.baseurl }}/class-material/07_rintro/){:.no-push-state},  
 - Muddy point assessment  
  
  
