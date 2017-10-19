@@ -3,8 +3,9 @@ layout: page
 title: R Language Basics (Part 1)
 ---
 
-## BGGN-213 Lecture 7: 
+**BGGN-213 Lecture 7:**   
 Barry Grant &lt; <http://thegrantlab.org> &gt;
+{:.message}
 
 ### 1. Background
 

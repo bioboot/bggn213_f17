@@ -284,14 +284,13 @@ cat types.txt | sort | uniq -c | head
 
  
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture7-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture7-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section 1]({{ site.baseurl }}/class-material/07_rintro/){:.no-push-state},  
-- Muddy point assessment  
+- [Muddy point assessment](https://goo.gl/forms/oTjpnFEWf3czKLW63){:.no-push-state}.
  
  
 **Homework**:   
-- Questions,  
-- Readings: PDF1.     
+- [DataCamp Assignments!](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details){:.no-push-state}.    
 
 
 

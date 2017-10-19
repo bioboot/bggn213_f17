@@ -156,7 +156,7 @@ present by using the `wc` command, which will tell you how many lines,
 words, and characters are in the file:
 
 ```
-  132901  2918423 39291181 mouse.1.rna.fna.gz.x.cow.faa.crbl.csv
+  59130  1295041 16880227 mouse.1.rna.fna.gz.x.cow.faa.crbl.csv
 ```
 
 
