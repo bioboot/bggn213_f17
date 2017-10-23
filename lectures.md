@@ -307,9 +307,7 @@ scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Buildin
 - Be conversant with data visualization best practices and understand how good visualizations optimize for the human visual system. 
 - Be able to generate  informative graphical displays including scatterplots, histograms, bar graphs, boxplots, dendrograms and heatmaps and thereby gain exposure to the extensive graphical capabilities of R.
 - Appreciate that you can build even more complex charts with ggplot and additional R packages such as rgl.
-- Perform elementary statistical analysis on boimolecular and “omics” datasets with R 
-- Produce informative graphical displays and data summaries.
-- Gain exposure to the extensive graphical capabilities of R.  
+
 
 
 **Material**:  
