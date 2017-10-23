@@ -299,25 +299,28 @@ cat types.txt | sort | uniq -c | head
 <br>
 
 ## 8: Data exploration and visualization in R    
-**Topics**: Import data in various formats both local and from online sources, The exploratory data analysis mindset, Data visualization best practices, Simple base graphics 
-scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot
+**Topics**: Import data in various formats both local and from online sources, The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including 
+scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
 
 **Goal**: 
+- Appreciate the major elements of exploratory data analysis and why it is important to visualize data.
+- Be conversant with data visualization best practices and understand how good visualizations optimize for the human visual system. 
+- Be able to generate  informative graphical displays including scatterplots, histograms, bar graphs, boxplots, dendrograms and heatmaps and thereby gain exposure to the extensive graphical capabilities of R.
+- Appreciate that you can build even more complex charts with ggplot and additional R packages such as rgl.
 - Perform elementary statistical analysis on boimolecular and “omics” datasets with R 
 - Produce informative graphical displays and data summaries.
 - Gain exposure to the extensive graphical capabilities of R.  
 
 
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
+- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/08_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/draw_lecture_plots2/){:.no-push-state},  
 - Hands-on section worksheet
 - Muddy point assessment  
  
  
 **Homework**:   
-- Questions,  
-- Readings: PDF1.   
+- This units homework is all via DataCamp (see lecture 7 above).   
 
 
 
