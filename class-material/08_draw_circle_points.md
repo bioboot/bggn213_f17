@@ -1,5 +1,8 @@
-Visualization with R Lecture \#8 (Part 1)
-================
+---
+layout: page
+title: Visualization with R Lecture \#8 (Part 1)
+---
+
 **BGGN-213 Lecture 8:**  
 Barry Grant &lt; <http://thegrantlab.org> &gt;  
 Date: 2017-10-23 (14:04:51 PDT on Mon, Oct 23)  
