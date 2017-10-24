@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visualization with R Lecture \#8 (Part 1)
+title: Visualization with R Lecture (Part 1)
 ---
 
 **BGGN-213 Lecture 8:**  
@@ -111,8 +111,8 @@ ggplot(pc, aes(x,y)) + geom_point() + coord_equal()
 
 ![]({{ site.baseurl }}/class-material/draw_circle_points_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
 
-For some other plots in this lecture we will use the more complicated but more versitile **ggplot2** package. We will cover the basics of ggplot later.
-
+For some [other plots in this lecture (i.e. **Part 2**.)]({{ site.baseurl }}/class-material/08_draw_lecture_plots2/) we will use the more complicated but more versitile **ggplot2** package. We will cover the basics of ggplot later.
+  
 Side-Note: GitHub Documents
 ---------------------------
 

@@ -311,14 +311,15 @@ scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Buildin
 
 
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
-- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/08_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/draw_lecture_plots2/){:.no-push-state},  
-- Hands-on section worksheet
-- Muddy point assessment  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture8-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture8-BGGN213-small.pdf){:.no-push-state},  
+- Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/08_draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/08_draw_lecture_plots2/){:.no-push-state},  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture8-BGGN213_F17.pdf){:.no-push-state},  
+- Example data for hands-on sections [bggn213_08_rstats.zip]({{ site.baseurl }}/class-material/bggn213_08_rstats.zip){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/U0NldeN1J6BNY6Nz2){:.no-push-state}  
  
  
 **Homework**:   
-- This units homework is all via DataCamp (see lecture 7 above).   
+- This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
 
 
 
