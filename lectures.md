@@ -326,7 +326,7 @@ cat types.txt | sort | uniq -c | head
 <a name="9"></a>
 <br>
 
-## 9: Working with R packages for bioinformatics    
+## 9: Working with R functions and packages for bioinformatics    
 **Topics**: Import data in various formats both local and from online sources, Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
 
 **Goals**:   
