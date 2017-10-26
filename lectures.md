@@ -299,8 +299,7 @@ cat types.txt | sort | uniq -c | head
 <br>
 
 ## 8: Data exploration and visualization in R    
-**Topics**: Import data in various formats both local and from online sources, The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including 
-scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
+**Topics**: The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
 
 **Goal**: 
 - Appreciate the major elements of exploratory data analysis and why it is important to visualize data.
@@ -328,20 +327,23 @@ scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Buildin
 <br>
 
 ## 9: Working with R packages for bioinformatics    
-**Topics**: Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+**Topics**: Import data in various formats both local and from online sources, Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
 
-**Goals**: TBD... 
+**Goals**:   
+- Be able to import data in various flat file formats from both local and online sources.  
+- Understand the structure and syntax of R functions and how to view the code of any R function.
+- Be able to write basic functions that promote robustness reduce duplication and facilitate code re-use.  
+- Be able to find and install R packages from CRAN and bioconductor and understand how to find and use package vignettes, demos, documentaion, tutorals and source code repositors where available.     
 
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state},  
+- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.   
+- [Muddy point assessment](https://goo.gl/forms/xLBLy0WFnN1BZxPL2){:.no-push-state}    
  
  
 **Homework**:   
-- Questions,  
-- Readings: PDF1.   
+- This units homework is all [via **DataCamp** (see lecture 7 above)](https://www.datacamp.com/groups/foundations-of-bioinformatics-bggn-213/details#tab_assignments).   
 
 
 <hr>
