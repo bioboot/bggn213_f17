@@ -332,13 +332,14 @@ cat types.txt | sort | uniq -c | head
 **Goals**:   
 - Be able to import data in various flat file formats from both local and online sources.  
 - Understand the structure and syntax of R functions and how to view the code of any R function.
-- Be able to write basic functions that promote robustness reduce duplication and facilitate code re-use.  
-- Be able to find and install R packages from CRAN and bioconductor and understand how to find and use package vignettes, demos, documentaion, tutorals and source code repositors where available.     
+- Be able to write basic functions that promote code robustness, reduce duplication and facilitate code re-use.  
+- Be able to find and install R packages from CRAN and bioconductor and understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.     
 
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state},  
-- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.   
+- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1NWKCfySNAoZII_j9SwDLhEdpOEDDtAALPik4DxbXS9Q/edit?usp=sharing){:.no-push-state},    
 - [Muddy point assessment](https://goo.gl/forms/xLBLy0WFnN1BZxPL2){:.no-push-state}    
  
  
