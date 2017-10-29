@@ -26,27 +26,27 @@ All Lectures are Tu/Th 9:00-12:00 pm in Warren Lecture Hall 2015 (WLH 2015) ([Ma
 |   |   |   |
 | 8 | Tu, 10/24 | [**Data exploration and visualization in R**](#8) <br> Import data in various formats (both local and from online sources), The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot | 
 |   |   |   |
-| 9 | Th, 10/26 | [**Working with R packages for bioinformatics**](#9) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor | 
+| 9 | Th, 10/26 | [**Why, when and how of writing your own R functions**](#9) <br> Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use | 
 |   |   |   |
-| 10 | Tu, 10/31 | [**Structural Bioinformatics**](#10) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure | 
+| 10 | Tu, 10/31 | [**Working with R packages for bioinformatics**](#10) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing and analyzing genome-scale data with bioconductor | 
 |   |   |   |
-| 11 | Th, 11/02 | [**Bioinformatics in drug discovery and design**](#11) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
+| 11 | Th, 11/02 | [**Structural Bioinformatics**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure | 
 |   |   |   |
-| 12 | Tu, 11/07 | **Mid Term:** [**Find a gene project assignment**](#12) <br> Principles of database searching and sequence analysis | 
+| 12 | Tu, 11/07 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization | 
 |   |   |   |
-| 13 | Th, 11/09 | [**Genome informatics and high throughput sequencing**](#13) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
+| 13 | Th, 11/09 | **Mid Term:** [**Find a gene project assignment**](#13) <br> Principles of database searching and sequence analysis | 
 |   |   |   |
-| 14 | Tu, 11/14 | [**Major bioinformatics resources for genomics.**](#14) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
+| 14 | Tu, 11/14 | [**Genome informatics and high throughput sequencing**](#14) <br> Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future  (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods | 
 |   |   |   |
-| 15 | Th, 11/16 | [**Transcriptomics and the analysis of RNA-Seq data**](#15) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R | 
+| 15 | Th, 11/16 | [**Major bioinformatics resources for genomics.**](#15) <br> Databases, tools and visualization resources from NCBI, EBI &amp; UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample workflows with FASTQC and bowtie2 | 
 |   |   |   |
-| 16 | Tu, 11/21 | [**Genome annotation and the interpretation of gene lists**](#16) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
+| 16 | Tu, 11/21 | [**Immunoinformatics resources for the understanding of immunological information**](#16) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine. | 
 |   |   |   |
 |   | Th, 11/23 | **Happy Thanksgiving!** <br> No class <br> **N.B.** Find a gene assignment due on Monday 11/27! |
 |   |   |   |
-| 17 | Tu, 11/28 | [**Systems and network modeling**](#17) <br> Analysis of protein-protein interactions, Pathways and networks, Computational methods of network modeling, Hands on with Cytoscape | 
+| 17 | Tu, 11/28 | [**Transcriptomics and the analysis of RNA-Seq data**](#17) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R | 
 |   |   |   |
-| 18 | Th, 11/30 | [**Continuing genomic advances and bioinformatics challenges**](#18) <br> From genome to phenotypes, Integration of heterogenous high throughput genome-wide data sets into their functional context, Data mining and hypothesis generation in the era of big data, deep learning and artificial intelligence   |
+| 18 | Th, 11/30 | [**Genome annotation and the interpretation of gene lists**](#18) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment | 
 |   |   |   |
 | 19 | Tu, 12/05 | [**Guest lecture**](#19) <br> Student selected guest presentation with possible topics including: **Metagenomics** / **Pharmacogenomics** / **Epigenomicss** / **Personal genomics** / **Genome evolution** / **Genome editing and synthetic genomics** / **Social impacts and ethical implications of continuing* genomic advances**  | 
 |   |   |   |
@@ -273,14 +273,13 @@ cat types.txt | sort | uniq -c | head
 <br>
 
 ## 7: Bioinformatics data analysis with R    
-**Topics**: R language basics and the RStudio IDE, Major R data structures and functions, Data Exploration and Visualization in R, Working with R packages from CRAN & Bioconductor.
+**Topics**: R language basics and the RStudio IDE, Major R data structures and functions, Using R for data exploration and visualization.  R scripts and R Markdown.  
 
 **Goal**: 
-- Familiarity with R's basic syntax
-- Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis.
-- Familiarity with major R data structures (vectors, matrices and data.frames).
-- Understand the basics of using functions (arguments, vectorizion and re-cycling),
-- Appreciate how you can use R scripts to aid with reproducibility.
+- Familiarity with R's basic syntax,  
+- Be able to use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis,  
+- Familiarity with major R data structures (vectors, matrices and data.frames),  
+- Understand the basics of using functions (arguments, vectorizion and re-cycling).  
 
  
 **Material**:  
@@ -326,20 +325,19 @@ cat types.txt | sort | uniq -c | head
 <a name="9"></a>
 <br>
 
-## 9: Working with R functions and packages for bioinformatics    
-**Topics**: Import data in various formats both local and from online sources, Extending functionality and utility with R packages, Obtaining R packages from CRAN and bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+## 9: Why, When and How of Writing Your Own R Functions  
+**Topics**: Import data in various formats both local and from online sources, The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use.  
 
 **Goals**:   
 - Be able to import data in various flat file formats from both local and online sources.  
 - Understand the structure and syntax of R functions and how to view the code of any R function.
-- Be able to write basic functions that promote code robustness, reduce duplication and facilitate code re-use.  
-- Be able to find and install R packages from CRAN and bioconductor and understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.     
+- Understand when you should be writing functions.  
+- Be able to follow a step by step process of going from a working code snippet to a more robust function.  
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture9-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state},  
-- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1NWKCfySNAoZII_j9SwDLhEdpOEDDtAALPik4DxbXS9Q/edit?usp=sharing){:.no-push-state},    
+- Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.      
 - [Muddy point assessment](https://goo.gl/forms/xLBLy0WFnN1BZxPL2){:.no-push-state}    
  
  
@@ -351,7 +349,31 @@ cat types.txt | sort | uniq -c | head
 <a name="10"></a>
 <br>
 
-## 10: Structural Bioinformatics    
+## 10: Using CRAN and Bioconductor Packages for Bioinformatics      
+**Topics**: More on how to write R functions with worked examples. Further extending functionality and utility with R packages, Obtaining R packages from CRAN and Bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+
+**Goals**: 
+- Be able to find and install R packages from CRAN and bioconductor,  
+- Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.     
+- Be able to write and (re)use basic R scripts to aid with reproducibility.  
+
+**Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-small.pdf){:.no-push-state},  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture10-BGGN213_F17.pdf){:.no-push-state},  
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1NWKCfySNAoZII_j9SwDLhEdpOEDDtAALPik4DxbXS9Q/edit?usp=sharing){:.no-push-state},    
+- Muddy point assessment    
+ 
+ 
+**Homework**:   
+- Turn the following code snippet into a more robust and re-usable function that will take any of the listed input proteins and plot the effect of drug binding. Note assessment rubric within document.   
+
+
+
+<hr>
+<a name="11"></a>
+<br>
+
+## 11: Structural Bioinformatics    
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure.
 
 **Goal**: 
@@ -363,10 +385,10 @@ cat types.txt | sort | uniq -c | head
 
 
 <hr>
-<a name="11"></a>
+<a name="12"></a>
 <br>
 
-## 11: Bioinformatics in drug discovery and design 
+## 12: Bioinformatics in drug discovery and design 
 **Topics**: Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization
 
 **Goals**: ...TBD...  
@@ -390,18 +412,18 @@ Small molecule docking methods, Protein motion and conformational variants,  Mol
 
 
 <hr>
-<a name="12"></a>
+<a name="13"></a>
 <br>
 
-## 12: Mid Term! 
+## 13: Mid Term! 
 
 See [handout]({{ site.baseurl }}/class-material/FindGene_mid-term.pdf){:.no-push-state}) for detailed instructions.
 
 <hr>
-<a name="13"></a>
+<a name="14"></a>
 <br>
 
-## 13: Genome informatics and high throughput sequencing  
+## 14: Genome informatics and high throughput sequencing  
 **Topics**: Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods
 
 **Goals**: Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.
@@ -445,10 +467,10 @@ Understand the process by which genomes are currently sequenced and the bioinfor
 
 
 <hr>
-<a name="14"></a>
+<a name="15"></a>
 <br>
 
-## 14: Major bioinformatics resources for genomics. 
+## 15: Major bioinformatics resources for genomics. 
 **Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FASTQC and bowtie2
 
 **Goals**: For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
@@ -474,10 +496,10 @@ High throughput sequencing technologies, biological applications and bioinformat
 
 
 <hr>
-<a name="15"></a>
+<a name="16"></a>
 <br>
 
-## 15: Transcriptomics and the analysis of RNA-Seq data 
+## 16: Transcriptomics and the analysis of RNA-Seq data 
 **Topics**: RNA-Seq aligners, Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse
 
 **Goals**: Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions.
@@ -497,10 +519,10 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 - Readings: PDF2.   
 
 <hr>
-<a name="16"></a>
+<a name="17"></a>
 <br>
 
-## 16: Genome annotation and the interpretation of gene lists 
+## 17: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment).
@@ -518,10 +540,10 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 - Readings: PDF2.   
 
 <hr>
-<a name="17"></a>
+<a name="18"></a>
 <br>
 
-## 17: Systems and network modeling 
+## 18: Systems and network modeling 
 **Topics**: From genome to phenotypes. Integration of genome-wide data sets into their functional context, Analysis of protein-protein interactions, Pathways and networks, Computational methods of network modeling
 
 **Goals**: Use the KEGG pathway database to look up interaction pathways.
@@ -536,26 +558,6 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 **Homework**:   
 - Questions,  
 - Readings: PDF1.  
-
-<hr>
-<a name="18"></a>
-<br>
-
-## 18: Continuing genomic advances and bioinformatics challenges 
-**Topics**: From genome to phenotypes, Integration of heterogenous high throughput genome-wide data sets into their functional context, Data mining and hypothesis generation in the era of deep learning and artificial intelligence)
-
-**Goals**: Use graph theory to represent biological data networks.
-
-**Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
- 
- 
-**Homework**:   
-- No homework this week,  
-- Readings: PDF1,  
 
 <hr>
 <a name="19"></a>
