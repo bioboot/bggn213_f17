@@ -494,12 +494,19 @@ High throughput sequencing technologies, biological applications and bioinformat
 
 
 
-
 <hr>
 <a name="16"></a>
 <br>
 
 ## 16: Transcriptomics and the analysis of RNA-Seq data 
+**Topics**: Immunoinformatics resources for the understanding of immunological information**](#16) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+
+
+<hr>
+<a name="17"></a>
+<br>
+
+## 17: Transcriptomics and the analysis of RNA-Seq data 
 **Topics**: RNA-Seq aligners, Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse
 
 **Goals**: Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions.
@@ -519,10 +526,10 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 - Readings: PDF2.   
 
 <hr>
-<a name="17"></a>
+<a name="18"></a>
 <br>
 
-## 17: Genome annotation and the interpretation of gene lists 
+## 18: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment).
@@ -539,25 +546,7 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 - Readings: PDF1,  
 - Readings: PDF2.   
 
-<hr>
-<a name="18"></a>
-<br>
-
-## 18: Systems and network modeling 
-**Topics**: From genome to phenotypes. Integration of genome-wide data sets into their functional context, Analysis of protein-protein interactions, Pathways and networks, Computational methods of network modeling
-
-**Goals**: Use the KEGG pathway database to look up interaction pathways.
-
-**Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
- 
- 
-**Homework**:   
-- Questions,  
-- Readings: PDF1.  
+  
 
 <hr>
 <a name="19"></a>
