@@ -359,13 +359,13 @@ cat types.txt | sort | uniq -c | head
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture10-BGGN213-small.pdf){:.no-push-state},  
-- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture10-BGGN213_F17.pdf){:.no-push-state},  
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1NWKCfySNAoZII_j9SwDLhEdpOEDDtAALPik4DxbXS9Q/edit?usp=sharing){:.no-push-state},    
-- Muddy point assessment    
+- [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/mErODorNRNa1JPRH2){:.no-push-state}.      
  
  
 **Homework**:   
-- Turn the following code snippet into a more robust and re-usable function that will take any of the listed input proteins and plot the effect of drug binding. Note assessment rubric within document.   
+- Complete question 6 from the [lecture 9 worksheet]({{ site.baseurl }}/class-material/lecture9-BGGN213_F17.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric within document. (Submission deadline: 9am **Th, 11/09**).  
 
 
 
