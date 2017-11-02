@@ -380,9 +380,14 @@ cat types.txt | sort | uniq -c | head
 - View and interpret the structural models in the PDB,
 - Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,
 - Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,
-- Understand the basis of modeling energy as a function of structure,
-- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery.
+- Be able to use the Bio3D package for exploratory analysis of protein sequence-structure-function-dynamics relationships,  
+- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery.  
 
+
+**Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-small.pdf){:.no-push-state},  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture11-BGGN213_F17.pdf){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/jFYiInPNy3qFKv6U2){:.no-push-state}.      
 
 <hr>
 <a name="12"></a>
