@@ -387,6 +387,7 @@ cat types.txt | sort | uniq -c | head
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture11-BGGN213_F17.pdf){:.no-push-state},  
+- VMD software [download link](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  
 - [Muddy point assessment](https://goo.gl/forms/jFYiInPNy3qFKv6U2){:.no-push-state}.      
 
 <hr>
