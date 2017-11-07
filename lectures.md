@@ -394,13 +394,13 @@ cat types.txt | sort | uniq -c | head
 <br>
 
 ## 12: Bioinformatics in drug discovery and design 
-**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-Based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization. 
+**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization. 
 
 **Goals**:    
 - Appreciate how bioinformatics can predict functional dynamics & aid drug discovery,  
 - Be able to use Bio3D and R for the analysis and prediction of protein flexibility,
 - Be able to perform *In silico* docking and virtual screening strategies for drug discovery,
-- Understand the role of increasing role of molecular simulation and bioinformatics in the drug discovery process.  
+- Understand the increasing role of bioinformatics in the drug discovery process.  
 
 
 **Material**:   
@@ -408,7 +408,7 @@ cat types.txt | sort | uniq -c | head
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture12-BGGN213_F17.pdf){:.no-push-state},  
 - MGLTools software [download link](http://mgltools.scripps.edu/downloads){:.no-push-state},  
 - VMD software [download link](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  
-- [Muddy point assessment](https://goo.gl/forms/jFYiInPNy3qFKv6U2){:.no-push-state}.      
+- [Muddy point assessment](https://goo.gl/forms/IuaXytmCkfK9yqgu1){:.no-push-state}.      
 
 
 
@@ -416,9 +416,9 @@ cat types.txt | sort | uniq -c | head
 <a name="13"></a>
 <br>
 
-## 13: Mid Term! 
+## 13: Project Assignment Introduction! 
 
-See [handout]({{ site.baseurl }}/class-material/FindGene_mid-term.pdf){:.no-push-state}) for detailed instructions.
+See example [handout]({{ site.baseurl }}/class-material/FindGene_mid-term.pdf){:.no-push-state} for a draft project. We will be doing things slightly differently in this course - more details to follow in class.
 
 <hr>
 <a name="14"></a>
