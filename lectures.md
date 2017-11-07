@@ -380,8 +380,7 @@ cat types.txt | sort | uniq -c | head
 - View and interpret the structural models in the PDB,
 - Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,
 - Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,
-- Be able to use the Bio3D package for exploratory analysis of protein sequence-structure-function-dynamics relationships,  
-- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery.  
+- Be able to use the Bio3D package for exploratory analysis of protein sequence-structure-function-dynamics relationships.    
 
 
 **Material**:  
@@ -395,25 +394,21 @@ cat types.txt | sort | uniq -c | head
 <br>
 
 ## 12: Bioinformatics in drug discovery and design 
-**Topics**: Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization
+**Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-Based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular motion, conformational variants and functional dynamics; Molecular simulation and drug optimization. 
 
-**Goals**: ...TBD...  
-- The RCSB PDB resource. Interactive biomolecular structure visualization with VMD. Structural analysis of protein families and prediction of protein flexibility with Bio3D. In silico docking and virtual screening strategies for drug design.
-- Structure Based Drug Discovery and Pharmacogenomics <br> Biomolecular Simulations)
-Small molecule docking methods, Protein motion and conformational variants,  Molecular simulation, Bioinformatics in drug discovery. 
-- Pharmacogenomics, polymorphisms, pharmacokinetics and Pharmacodynamics, ADRs.
+**Goals**:    
+- Appreciate how bioinformatics can predict functional dynamics & aid drug discovery,  
+- Be able to use Bio3D and R for the analysis and prediction of protein flexibility,
+- Be able to perform *In silico* docking and virtual screening strategies for drug discovery,
+- Understand the role of increasing role of molecular simulation and bioinformatics in the drug discovery process.  
 
-**Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
- 
- 
-**Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
+
+**Material**:   
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture12-BGGN213-small.pdf){:.no-push-state},  
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture12-BGGN213_F17.pdf){:.no-push-state},  
+- MGLTools software [download link](http://mgltools.scripps.edu/downloads){:.no-push-state},  
+- VMD software [download link](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/jFYiInPNy3qFKv6U2){:.no-push-state}.      
 
 
 
