@@ -428,6 +428,12 @@ The complete assignment, including responses to all questions, is due at the beg
 
 Late responses will not be accepted under any circumstances.  
 
+### Hands-on with Git:  
+Today’s lecture and hands-on sessions with introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git that you’ll do every day. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture13-BGGN213-small.pdf){:.no-push-state},  
+- [Hands-on section worksheet 1](http://tinyurl.com/rclass-github){:.no-push-state},  
+- Optional: [Hands-on section worksheet 2](https://github.com/bioboot/demo2-github){:.no-push-state}.  
 
 <hr>
 <a name="14"></a>
