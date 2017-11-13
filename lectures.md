@@ -450,6 +450,7 @@ Understand the process by which genomes are currently sequenced and the bioinfor
 - Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
 - Hands-on section worksheet
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
 - Muddy point assessment  
  
  
