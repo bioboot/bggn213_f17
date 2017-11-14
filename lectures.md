@@ -440,11 +440,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 ## 14: Genome informatics and high throughput sequencing  
-**Topics**: Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Bioinformatics analysis methods
+**Topics**: Searching genes and gene functions, Genome databases, Variation in the genome, Sequencing technologies past, present and future Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, RNA-Sequencing for gene expression analysis, Bioinformatics analysis methods
 
-**Goals**: Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.
-
-Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation
+**Goals**: 
+- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
+- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.   
 
 **Material**:   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-small.pdf){:.no-push-state},  
@@ -452,34 +453,6 @@ Understand the process by which genomes are currently sequenced and the bioinfor
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r).  
 - [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
  
- 
-**Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
-
-
-**Notes**:
-
-| | Description | Duration | End time |
-| --- | --- | --- | --- | 
-| 13.1  |  **What is a Genome?** | | |
-| | Early Genome Sequencing | | |
-| | The Human Genome Project | | |
-| 13.2 | [**What can we do with a Genome?** | | |
-| | Comparative Genomics | | |
-| | Gene Prediction | | |
-| -  |  *Break*  |  10mins |   11:05am |
-|  13.3 | [**Modern Genome Sequencing** | | |
-| | Modern NGS <br> 1st, 2nd and 3rd generation) Sequencing Platforms | | |
-| -  |  *Break*  |  10mins |   11:05am |
-| 13.4 | [**Workflow for NGS** | | |
-| | Quality Control <br> QC |  | |
-| | FASTQC format| | |
-| | Sequence Alignment | | |
-| | SAM format | | |
-| | Post-alignment Optimization | | |
-| | GATK Workflow | | |
 
 
 <hr>
