@@ -487,8 +487,8 @@ High throughput sequencing technologies, biological applications and bioinformat
 <a name="16"></a>
 <br>
 
-## 16: Transcriptomics and the analysis of RNA-Seq data 
-**Topics**: Immunoinformatics resources for the understanding of immunological information**](#16) <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+## 16: Immunoinformatics 
+**Topics**: Immunoinformatics resources for the understanding of immunological information. <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
 
 <hr>
