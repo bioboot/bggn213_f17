@@ -469,6 +469,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
 
 **Material**:  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17-update.pdf){:.no-push-state},  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
 - [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
