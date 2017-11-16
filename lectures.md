@@ -450,7 +450,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Material**:   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17.pdf){:.no-push-state},  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r).  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
 - [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
  
 
@@ -462,25 +462,18 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 ## 15: Major bioinformatics resources for genomics. 
 **Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FASTQC and bowtie2
 
-**Goals**: For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
+**Goals**: 
+- For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
+- Understand the fastq file format and the information does it holds. 
+- Be able to launch your own cloud based Galaxy server for NGS analysis.
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
 
 **Material**:  
-- Pre class screen cast,  
-- Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
- 
- 
-**Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17-update.pdf){:.no-push-state},  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
+- [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
 
-**Notes**: 
-The Galaxy web-based platform for genomic data analysis. Manipulation and analysis of next generation sequencing data sets.
-
-High throughput sequencing technologies, biological applications and bioinformatics analysis methods. Web interfaces to genome databases at Ensembl and UCSC.
-
+  
 
 
 <hr>
