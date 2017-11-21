@@ -490,7 +490,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
 
 **Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture16-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture16-small.pdf){:.no-push-state},  
 - [Hands-on section tasks]({{ site.baseurl }}/class-material/lecture15-lab/){:.no-push-state},  
 - Data files: [lecture16_sequences.fa]({{ site.baseurl }}//class-material/lecture16_sequences.fa){:.no-push-state}, Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}//class-material/lecture16_Q1_example/){:.no-push-state} walk through.
 - Patient HLA typing results:
