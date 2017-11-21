@@ -501,6 +501,7 @@ HLA-B*07:02
 HLA-B*35:01
 ~~~
 
+- Results: [subsequences.fa]({{ site.baseurl }}//class-material/subsequences.fa){:.no-push-state}, [Solutions.pdf]({{ site.baseurl }}//class-material/Solutions.pdf){:.no-push-state})
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
 
