@@ -40,7 +40,7 @@ Your task is to identify tumor specific mutations that could potentially be used
 
 You could simply align the above sequences using your favorite alignment method and then visually identify differences and extract the required subsequences. However, this apprach is error-prone and obviously will not scale to further examples (i.e. many additional proteins and 100s of mutations). 
 
-If you are so motivated to use your new R coding skills to address this question you may be interested in the following [example analysis]({{ site.baseurl }}//class-material/lecture16_sequences.fa){:.no-push-state}. However, we encourage you to try on your own first before consulting this worked example.  
+If you are so motivated to use your new R coding skills to address this question you may be interested in the following [example analysis]({{ site.baseurl }}//class-material/lecture16_Q1_example/){:.no-push-state}. However, we encourage you to try on your own first before consulting this worked example.  
 
 
 ### Section 2. Patient HLA typing results and HLA binding prediction: 
