@@ -445,7 +445,8 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 **Goals**: 
 - Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
 - Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
-- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.   
+- Be able to launch your own cloud based Galaxy server for NGS analysis.
+- Be able to navigate the Galaxy platform, input NGS sequence data and access common NGS tools for sequence analysis.  
 
 **Material**:   
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-small.pdf){:.no-push-state},  
@@ -460,11 +461,12 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 ## 15: Major bioinformatics resources for genomics. 
-**Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FASTQC and bowtie2
+**Topics**: Databases, tools and visualization resources from NCBI, EBI & UCSC, The Galaxy platform for quality control and analysis; FASTQ, SAM and BAM file formats; Sample Galaxy workflow with FastQC and Bowtie2
 
 **Goals**: 
-- For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
-- Understand the fastq file format and the information does it holds. 
+- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.
+- Understand the FASTQ file format and the information it holds. 
+- Understand the [SAM/BAM file format]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state} and the information it holds.
 - Be able to launch your own cloud based Galaxy server for NGS analysis.
 - Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
 
@@ -472,6 +474,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/BGGN213_F17_lecture15-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17-update.pdf){:.no-push-state},  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
 - [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
 
   
@@ -482,7 +485,22 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 <br>
 
 ## 16: Immunoinformatics 
-**Topics**: Immunoinformatics resources for the understanding of immunological information. <br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+**Topics**: Immunoinformatics resources for the understanding of immunological information. A case study in personalized cancer immunotherapy.
+<br> Guest lecture from Dr. Bjoern Peters (LIAI) with topics including: Epitope prediction,  Reverse vaccinology, Immune system modeling, Disease diagnosis and therapy along with implications for the development of personalized medicine.
+
+**Material**:  
+- Lecture Slides: Large PDF, Small PDF,  
+- [Hands-on section tasks]({{ site.baseurl }}/class-material/lecture15-lab/){:.no-push-state},  
+- Data files: [lecture16_sequences.fa]({{ site.baseurl }}//class-material/lecture16_sequences.fa){:.no-push-state}, Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}//class-material/lecture16_Q1_example/){:.no-push-state} walk through.
+- Patient HLA typing results:
+~~~
+HLA-A*02:01   
+HLA-A*68:01 
+HLA-B*07:02 
+HLA-B*35:01
+~~~
+
+- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
 
 
 <hr>
@@ -497,16 +515,18 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human genome e.g., Bowtie, pile up, analyzing the data putting it on the UCSC genome browser.
 
 **Material**:  
-- Pre class screen cast,  
 - Lecture Slides: Large PDF, Small PDF,  
+- Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.  
 - Hands-on section worksheet
+- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.  
 - Muddy point assessment  
  
  
-**Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
+**Readings**:    
+ - Excellent review article: [Conesa et al. A survey of best practices for RNA-seq data analysis. _Genome Biology_ 17:13 (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}.
+ - An oldey but a goodie: [Soneson et al. "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences." _F1000Research_ 4 (2015)](https://f1000research.com/articles/4-1521/v2).
+ - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.
+
 
 <hr>
 <a name="18"></a>
