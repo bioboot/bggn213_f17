@@ -452,6 +452,7 @@ Today’s lecture and hands-on sessions with introduce Git, currently the most p
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture14-BGGN213-small.pdf){:.no-push-state},  
 - [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture14-BGGN213_F17.pdf){:.no-push-state},  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture14_plot.r){:.no-push-state}.  
+- Hands-on section [Solutions.pdf]()
 - [Muddy point assessment](https://goo.gl/forms/NXUnSuVTFvoU7WMD3){:.no-push-state}.   
  
 
