@@ -510,16 +510,18 @@ HLA-B*35:01
 <br>
 
 ## 17: Transcriptomics and the analysis of RNA-Seq data 
-**Topics**: RNA-Seq aligners, Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse
+**Topics**: Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. 
 
-**Goals**: Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions.
+**Goals**: 
+- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations. 
+- Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations
+- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages
+- Understand the structure of count data and metadata required for running analysis
+- Be able to extract, explore, visualize and export results
 
-ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human genome e.g., Bowtie, pile up, analyzing the data putting it on the UCSC genome browser.
-
-**Material**:  
-- Lecture Slides: Large PDF, Small PDF,  
+**Material**:   
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.  
-- Hands-on section worksheet
+- [Hands-on section worksheet]({{ site.baseurl }}/class-material/BGGN213_lecture17/){:.no-push-state}  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.  
 - Muddy point assessment  
  
@@ -537,7 +539,7 @@ ChIP-seq or RNA-seq from an Illumina machine, mapping the reads onto the human g
 ## 18: Genome annotation and the interpretation of gene lists 
 **Topics**: Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
 
-**Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment).
+**Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Material**:  
 - Pre class screen cast,  
