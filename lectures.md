@@ -542,17 +542,13 @@ HLA-B*35:01
 
 **Goals**: Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
-**Material**:  
-- Pre class screen cast,  
+**Material**:   
 - Lecture Slides: Large PDF, Small PDF,  
-- Hands-on section worksheet
-- Muddy point assessment  
+- [Hands-on section worksheet **Part 2**]({{ site.baseurl }}/class-material/BGGN213_lecture18/){:.no-push-state}  
+- Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
  
- 
-**Homework**:   
-- Questions,  
-- Readings: PDF1,  
-- Readings: PDF2.   
+**Readings**:    
+ - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.  
 
   
 
