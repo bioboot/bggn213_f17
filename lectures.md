@@ -569,7 +569,7 @@ HLA-B*35:01
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Chi-square test in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask!  
 
 **Material**:   
-- Lecture Slides: [Ileena's slides Large PDF]({{ site.baseurl }}/class-material/BGGN213_Stats_Lec_Presentation.pdf){:.no-push-state},  [Barry's PCA slides, Large PDF]({{ site.baseurl }}/class-material/PCA.pdf){:.no-push-state}       
+- Lecture Slides: [Ileena's slides Large PDF]({{ site.baseurl }}/class-material/BGGN213_Stats_Lec_Presentation.pdf){:.no-push-state},  [Barry's PCA slides, Large PDF]({{ site.baseurl }}/class-material/PCA.pdf){:.no-push-state}, [Link 2 for PCA slides](https://github.com/bioboot/bggn213_f17/raw/gh-pages/class-material/PCA.pdf){:.no-push-state}.     
 - [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}.
