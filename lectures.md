@@ -560,3 +560,17 @@ HLA-B*35:01
 **Topics**: Student selected industry based genomic scientist presentation with possible topics including: Metagenomics / Pharmacogenomics / Epigenomicss / Personal genomics / Genome evolution / Genome editing and synthetic genomics / Social impacts and ethical implications of continuing genomic advances
 
 **Goals**: Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context.
+
+<hr>
+<a name="20"></a>
+<br>
+
+## 20: Foundational statistics for bioinformatics 
+**Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Chi-square test in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask!  
+
+**Material**:   
+- Lecture Slides: Ileena's slides Large PDF,  [Barry's PCA slides, Large PDF]({{ site.baseurl }}/class-material/PCA.pdf){:.no-push-state}      
+- [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/UK_food_pca//){:.no-push-state}  
+- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}.  
+
+  
